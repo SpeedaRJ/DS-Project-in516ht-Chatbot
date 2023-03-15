@@ -279,3 +279,5 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+src/data/processed/sustainability-report-2020.csv
+src/data/raw/sustainability-report-2020.pdf
