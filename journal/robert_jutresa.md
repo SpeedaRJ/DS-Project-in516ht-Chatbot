@@ -7,6 +7,7 @@
 * **8th (30 min)**: Meeting with NLB - we talked about the data again, how they will prepare the question and answers that we will need, we also talked a bit about the scope of the task at hand.
 * **9th (30 min)**: Meeting with faculty advisor - most importantly we discussed implementation approaches, as well as data preprocessing and acquisition (Tool-formers, paraphrasing to get more data, use text data not tables).
 * **15th (4h)**: Meeting with the client and advisor from the industry - we talked about some starting ideas, decided to do a proof of concept for a simple question-answer generator using a model (1h). Creating and setting up stable conda environment (1h). We found a package *Haystack* with pre-built pipelines (also suggested by NLB). The first implementation was made to see how it would perform (2h).
+* **20th (1h)**: Preparing the cleaned version of the extracted questions and answers for the client. Send it over e-mail (1h).
 
 ## April 2020 ([total hours for March])
 
