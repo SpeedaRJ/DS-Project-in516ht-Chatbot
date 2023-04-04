@@ -10,7 +10,8 @@
 * **20th (1h)**: Preparing the cleaned version of the extracted questions and answers for the client. Send it over e-mail (1h).
 * **30th (30 min)**: Meeting with NLB - talked about the clean data, got an updated set. Talked about Cloud Computing platform with the advisor from the industry and got access to it. Made a plan for the next week.
 
-## April 2020 ([total hours for March])
+## April 2020 (6h)
+* **4th (6h)**: Working with my coworker - getting a baseline comparison of predictions from a model without fine tunning. Working on the environment, and preparing a feature plan for development and testing of the main model.
 
 ...
 
