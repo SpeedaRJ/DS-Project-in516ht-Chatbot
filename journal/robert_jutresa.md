@@ -17,7 +17,7 @@
 * **12th (10h)**: Working with my coworker, meeting with the professor, meeting with NLB - fine tunning the model, setting up evaluation methods, comparing to a baseline model, future planning, writing the interim report, and status update.
 * **13th (4h)**: Setting up a dense passage retrieval script, research, environment management.
 * **14th (2h)**: Code/comment management, working environment assurance, report rereading, merging the development branch into master.
-* 
+* **15th (1h)**: Interim report, minor changes and content updates based on advisor fedback.
 ...
 
 ## May 2020 ([total hours for May])
