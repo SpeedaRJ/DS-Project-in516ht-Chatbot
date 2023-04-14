@@ -44,7 +44,7 @@
 \Authors{Luka \v{S}kodnik and Robert Jutre\v{s}a}
 
 % Advisors
-\affiliation{\textit{Advisors: prof. dr. Marko Robnik Šikonja, Grega Jerkič, Branislava Šandrih Todorović}}
+\affiliation{\textit{Advisors: prof. dr. Marko Robnik Šikonja, Grega Jerkič, dr. Branislava Šandrih Todorović}}
 
 % Keywords
 \Keywords{question answering, large language models, banking domain}
@@ -56,7 +56,7 @@
 %----------------------------------------------------------------------------------------
 
 \Abstract{
-In this project we focus on the use of large language models for question answering, focusing on two approaches: extractive and generative. In the extractive approach, the position of the answer within the context is extracted, while in the generative approach, the answer is generated from the given question and relevant contexts. The choice of context is crucial for the performance of the system, and a retriever is typically used to select the most informative contexts. Extractive models perform well when the answer is a substring of the context, while generative models can handle more complex questions and reasoning on the context. We plan to implement and compare the performance of both approaches.
+In this project, we use large language models for question answering, focusing on two approaches: extractive and generative. In the extractive approach, the span of the answer within the context is extracted, while in the generative approach, the answer is generated based on the given question and relevant context. The choice of a relevant context from a document or a set of documents is crucial for the performance of the system, and a separate retriever is typically used to select the most informative contexts. Extractive models perform well when the answer is a substring of the context, while generative models can handle more complex questions and reasoning on the context. We plan to implement both approaches and compare their performance.
 }
 
 %----------------------------------------------------------------------------------------
@@ -79,11 +79,11 @@ In this project we focus on the use of large language models for question answer
 	%In the Introduction section you should write about the relevance of your work (what is the purpose of the project, what will we solve) and about related work (what solutions for the problem already exist). Where appropriate, reference scientific work conducted by other researchers. For example, the work done by Demšar et al. \cite{Demsar2016BalancedMixture} is very important for our project. The abbreviation et al. is for et alia, which in latin means and others, we use this abbreviation when there are more than two authors of the work we are citing. If there are two authors (or if there is a single author) we just write down their surnames. For example, the work done by Demšar and Lebar Bajec \cite{Demsar2017LinguisticEvolution} is also important for successful completion of our project.
 
 
-    In the past couple of years the quality of Natural Language Processing (NLP) tools that use Large Language Models (LLM) drastically increased.
-    This prompted a large number of companies to start introducing them into their work environment in order to cut down on time and increase performance.
-    To this end we take already existing models and approaches for open domain question answering (QA) and adapt them to our specific domain - banking.
+    In the past years, the quality of Natural Language Processing (NLP) tools that use Large Language Models (LLM) drastically increased.
+    This prompted a large number of companies to start introducing them into their work environment in order to cut down on employees time and increase performance.
+    To this end we adapt existing models and approaches for open domain question answering (QA) to our specific domain - banking.
     Using various techniques we will implement and evaluate different question answering pipelines, by fine-tuning open source models with domain specific data that has been provided to us. 
-    The goal is to provide a production-ready model, that outperforms the baseline LLMs for the required tasks.
+    The goal is to build a production-ready model, that outperforms baseline approaches for the required tasks.
     
 
 
@@ -94,60 +94,60 @@ In this project we focus on the use of large language models for question answer
 \subsection*{Datasets}
 When it comes to open domain question answering, the most widely used dataset is Standford Question and Answering Dataset (SQuAD)~\cite{rajpurkar2016squad, rajpurkar2018squadv2}.
 The basic version contains over 100k question with corresponding passages (contexts) and answers.
-The extended version of the dataset also includes over 50k questions without and answer written by crowd-workers, with the intention of improving models by ensuring more accurate learning of when a context does not contain an answer.
+The extended version of the dataset also includes over 50k questions without an answer written by crowd-workers, with the intention of improving models by ensuring more accurate learning of when a context does not contain an answer.
 TriviaQA~\cite{joshi2017triviaqa} and WikiQA~\cite{yang2015wikiqa} are also general question answering datasets, that have the same data structure as SQuAD.
-A data structure that was also used when preparing our own dataset. 
-To mitigate the drawback of extractive models HotpotQA~\cite{yang2018hotpotqa} also includes the positions of multiple supporting facts which should help the models perform more complex reasoning and provide explanations for the answers.
+We used the same data format for our own dataset. 
+To mitigate the drawback of extractive models, HotpotQA~\cite{yang2018hotpotqa} includes the positions of multiple supporting facts which should help the models perform more complex reasoning and provide explanations for the answers.
 The SuperGLUE~\cite{SuperGLUE} benchmark contains datasets for different language understanding tasks including question answering. 
-Here the question answering tasks are formulated in multiple ways: only with yes/no questions, questions for which we need to choose the correct alternative and queries that need to be filled in with an answer at a certain position.
+Here the question answering tasks are formulated in multiple ways: yes/no questions, multiple choice questions and queries where an answer is located at a certain position.
 
 \subsection*{Models}
-Question answering tasks that are most relevant to us include extractive QA and generative QA.
-For extractive QA model, which extract the answer from a given context, the most widely spread model is BERT~\cite{devlin2018bert} and it's many variations.
-These models are most often fine-tuned on datasets such as SQuAD in order to better satisfy the open domain question answering task.
-Models such as GPT~\cite{openai2023gpt4}, T5~\cite{T5}, LLaMA~\cite{touvron2023llama} and BLOOM~\cite{scao2022bloom}, have recently seen an increase in popularity, with GPT being at the forefront of the movement.
-Being generative models they can be trained for the task of generating an answer to the question, either by having a provided context from which to generate an answer, or generating one without a context whatsoever. \\
-The above mentioned models (depending on implementations) require contexts from a larger text database in order to extract/generate an answer. 
+Question answering tasks that are the most relevant to us include extractive QA and generative QA.
+For extractive QA models, which extract the answer from a given context, the most widely used model is BERT~\cite{devlin2019bert} and it's variations.
+These models are most often fine-tuned on datasets such as SQuAD in order to adapt to the question answering task.
+Generative models such as GPT~\cite{openai2023gpt4}, T5~\cite{T5}, LLaMA~\cite{touvron2023llama} and BLOOM~\cite{scao2022bloom}, can be trained to generate an answer to the question, either from a provided context or without a context whatsoever. \\
+Some of the above mentioned models require contexts from a larger text database to extract/generate an answer. 
 For this propose Dense Passage Retrieval (DPR) \cite{karpukhin2020dense} was developed for open domain QA. 
-Using question and context encoders it returns a paragraph with the highest relevancy to the answer.
+Using a question and context encoders, it returns a paragraph with the highest relevancy to the answer.
 
 
 \section*{Methodology}
 \subsection*{Data}
-The data we were provided with are the yearly sustainability reports of the NLB banking group.
-These reports are available as \textit{*.pdf} files or websites, and contain data about the development and working culture of the bank.
-To implement a QA model, questions, answers and contexts had to be extracted from the sources, and formatted such that they would suite already pre-trained models.
-To extract the text and generate question-answer pairs from a selected \textit{*.pdf} file, a pre-built QA generation pipeline from Haystack~\cite{haystack} was used.
-The generated data was then filtered by the NLB banking experts, and further post-processed to ensure standard formatting.\\
-{\it Furthermore, we are expecting another set of question-answer pairs to be provided to us, written by the NLB banking experts. These will be processed and used at a later date.}
+The data we were provided with are the annual sustainability reports of the NLB banking group.
+These reports are available as \textit{pdf} files or a website, and contain data about the development and working culture of the bank.
+To implement a QA model, questions, answers and contexts had to be extracted from the sources, and formatted to suite already pre-trained models.
+To extract the text and generate question-answer pairs from a selected \textit{pdf} file, a pre-built QA generation pipeline from Haystack~\cite{haystack} was used.
+The generated data was then filtered by the NLB banking experts, and post-processed to ensure standard formatting.
+The data was then randomly split into train and test sets, based on a 80-20 split. Half of the test set was then used for validation during fine-tuning.\\
+{\it Furthermore, we are expecting another set of question-answer pairs to be provided to us, written by the NLB banking experts. These will be processed and used at a later date. When this data is acquired, the data will then be joined an formally split into the train, validation and test sets.}
 
 \subsection*{Question answering pipeline}
 When constructing the pipeline of our model, two approaches were considered.
-The first of which is the extractive approach.
+The first is the extractive approach.
 In this approach, models try to find the answer in a given context, which is a task well suited for the data generated with the previously mentioned pipeline.
-This approach has also been proven to be reliable for simpler questions, which should be sufficient for our use case.
-There are multiple limitations for this since models can accept only a limited length context and the answer might not always be contained in the context.
-To achieve preliminary benchmark results, the model of choice was a smaller variant of BERT called DistilBERT~\cite{sanh2019distilbert} which has already been pre-trained on the SQuAD dataset.
+This approach has been shown to be reliable for simpler questions.
+There are multiple limitations of this approach since models can accept only a limited length context and the answer might not always be contained in the context.
+Our preliminary model was a smaller variant of BERT called DistilBERT~\cite{sanh2019distilbert} which has already been pre-trained on the SQuAD dataset.
+{\it Additional fine-tuning will have to be done after expanding the dataset. The full process will be explained here.}
 
-The second viable approach is of generative nature.
-Here the models learns to generate a sequence of words from an the input query (and context if provided).
-The benefit of these models is that they should be able to answer more complex questions since they are not only extracting the answer from but generating the answer based on some understanding of the natural language and the provided context.
-{\it This approach could be better suited for the question-answer pairs that are written and not automatically generated, as we have no guarantee that the answer will be provided directly in the context, but perhaps paraphrased or something similar. The models used for these approach will most likely include T5 and LLaMA.}
+Our second approach is generative.
+Such models learn to generate a sequence of words from an the input query (and context if provided).
+The benefit of these models is that they should be able to answer more complex questions since they are not only extracting the answer from the context but generating the answer based on understanding the language and the provided context.
+{\it This approach could be better suited for question-answer pairs that are written and not automatically generated, as we have no guarantee that the answer will be provided directly in the context, but may be paraphrased or expressed implicitly. The baseline models used for this approach will likely include T5 and LLaMA.}
 
-Since both the extractive approach and the selected generative approach require contexts to be provided together with the question, a pipeline has to be devised that provides the model with the required context for that answer.
-A sliding window implementation that looks through all of the possible contexts is possible, however it would be computationally inefficient and it might also yield worse results in the end.
-Therefore it is beneficial if we employ the use of a context retriever model which will identify a small number of relevant contexts to the questions which needs to be answered.
-{\it Here an DPR model will be used, as the first part of the full pipeline, that will find and extract the required context, and then feed it to QA model to return the answer.}
+Since both the extractive and generative approach require contexts our pipeline has to provide one with the answer.
+A sliding window passing through all possible contexts is possible, but would be computationally inefficient.
+Therefore, we will employ a context retriever model which will identify a small number of relevant contexts to the given question.
+{\it Here the DPR model will be used as the first part of the pipeline, to find and extract the required context, and its output will be fed to the QA model to return the answer.}
 
 \subsection*{Evaluation}
-For evaluation several metrics were considered. Since SQuAD has it's own evaluation benchmark, this was the first relevant one. 
-The two main components of this benchmark is the percentage of exact matches between the predicted and the ground truth answers for the test set, and the average overlap (F1 score). 
-In this case the predictions and ground truths are transformed into bags of tokens, for which the overlap is then calculated.
-The second relevant metric BLEU~\cite{papineni2002bleu}, is a benchmark for evaluating translation models.
-Since it's idea is to match the $n$-grams of the translated text, to those of the human generated translation or ground truth. These matches are then averaged geometrically.
-The metric can be extended to other tasks with a similar set up, such as an QA task.
-Next we have Bertscore~\cite{zhang2019bertscore}, which is a benchmark which leverages contextual embeddings to represent tokens, and then computes precision, recall and F1 score using cosine similarity between the embeddings of the predicted answer and those of the ground truth.
-{\it The SuperGLUE ReCoRD or MultiRC task benchmarks could also be used as evaluation metrics.}
+For evaluation, we consider several metrics. Since SQuAD has it's own evaluation benchmark, this is out first choice. 
+The two main components of this benchmark are the percentage of exact matches between the predicted and the ground truth answers, and the average overlap (F1 score). 
+In this case the predictions and ground truths are transformed into bags of tokens, for which the overlap is calculated.
+The second metric, BLEU~\cite{papineni2002bleu}, is a benchmark for evaluating translation models.
+It's idea is to match the $n$-grams of the generated text, to those of the ground truth. These matches are then averaged geometrically.
+Next, Bertscore~\cite{zhang2019bertscore}, leverages contextual embeddings to represent tokens, and then computes precision, recall and F1 score using cosine similarity between the embeddings of the predicted answer and those of the ground truth.
+{\it Based on our dataset, we will also consider the SuperGLUE ReCoRD and MultiRC tasks in our evaluation.}
 
 
 %Use the Methods section to describe what you did an how you did it -- in what way did you prepare the data, what algorithms did you use, how did you test various solutions ... Provide all the required details for a reproduction of your work.
@@ -272,7 +272,7 @@ Next we have Bertscore~\cite{zhang2019bertscore}, which is a benchmark which lev
 	\centering
     \label{tab:baseline_fine_tuning}
     \scalebox{0.75}{
-    	\begin{tabular}{l | c c c c c c }
+    	\begin{tabular}{l || c c c | c | c c }
     		\toprule
     		& Bertscore & & & & SQuAD & \\
     		\cmidrule(r){2-4} \cmidrule(r){6-7}
@@ -285,7 +285,7 @@ Next we have Bertscore~\cite{zhang2019bertscore}, which is a benchmark which lev
      }
 \end{table}
 
-Table~\ref{tab:baseline_fine_tuning} shows the effects of fine-tuning the DistilBERT model, that has already been pre-trained for the QA task.
+Table~\ref{tab:baseline_fine_tuning} shows the effects of fine-tuning the DistilBERT model, that has already been pre-trained for the QA task. We can see marginal improvements across the board. We also ran similar testing using a model that was not pre-trained for the QA task, and we saw drastically better improvements. However, we choose to omit those tests, as we would like to leverage transfer learning in our model, and thus we should evaluate it as such.
 
 %Use the results section to present the final results of your work. Present the results in a objective and scientific fashion. Use visualisations to convey your results in a clear and efficient manner. When comparing results between various techniques use appropriate statistical methodology.
 
@@ -301,12 +301,12 @@ Table~\ref{tab:baseline_fine_tuning} shows the effects of fine-tuning the Distil
 %------------------------------------------------
 
 \section*{Discussion}
-Thus far we have identified the main approaches for solving our problem and defined the pipeline we need to implement.
+Thus far, we have identified the main approaches for solving our problem and defined the pipeline.
 We started by fine tuning a model for the extractive approach and shown that fine tuning on our domain specific data improves the performance of the model.
-When we receive the data written by the banking expert we plan on using that data to fine tune our models as it should be higher in quality.
-Knowing that this approach should work we now plan on firstly adapting a context retriever to extract the relevant contexts from the yearly reports.
-After this we plan to fine tune additional model(s) for the extractive approach and also try out the generative approach.
-Finally we plan on identifying more evaluation protocols one of which would possibly be human evaluation where we would manually check the answers output by the models.
+When we receive the data written by the banking experts we plan on using that data to fine tune our models as it should be of better quality.
+Knowing that this approach works we plan on adapting a context retriever to extract the relevant contexts from the annual reports.
+After this, we plan to fine tune additional model(s) for the extractive approach and test the generative approach.
+Finally, we plan to identifying more realistic evaluation protocols including human evaluation where we would manually check a sample of the answers generated by the models.
 
 %Use the Discussion section to objectively evaluate your work, do not just put praise on everything you did, be critical and exposes flaws and weaknesses of your solution. You can also explain what you would do differently if you would be able to start again and what upgrades could be done on the project in the future.
 
