@@ -1,48 +1,49 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DATASETS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-@article{rajpurkar2018squadv2,
-  title={Know what you don't know: Unanswerable questions for SQuAD},
+@inproceedings{rajpurkar2018squadv2,
+  title={Know What You Don’t Know: Unanswerable Questions for SQuAD},
   author={Rajpurkar, Pranav and Jia, Robin and Liang, Percy},
-  journal={arXiv preprint arXiv:1806.03822},
+  booktitle={Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+  pages={784--789},
   year={2018}
 }
 
-@article{rajpurkar2016squad,
-  title={Squad: 100,000+ questions for machine comprehension of text},
+@inproceedings{rajpurkar2016squad,
+  title={SQuAD: 100,000+ Questions for Machine Comprehension of Text},
   author={Rajpurkar, Pranav and Zhang, Jian and Lopyrev, Konstantin and Liang, Percy},
-  journal={arXiv preprint arXiv:1606.05250},
+  booktitle={Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing},
+  pages={2383--2392},
   year={2016}
 }
 
 @inproceedings{yang2015wikiqa,
-  title={Wikiqa: A challenge dataset for open-domain question answering},
+  title={WikiQA: A challenge dataset for open-domain question answering},
   author={Yang, Yi and Yih, Wen-tau and Meek, Christopher},
-  booktitle={Proceedings of the 2015 conference on empirical methods in natural language processing},
+  booktitle={Proceedings of the 2015 conference on Empirical methods in natural language processing},
   pages={2013--2018},
   year={2015}
 }
 
-@article{joshi2017triviaqa,
-  title={Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension},
+@inproceedings{joshi2017triviaqa,
+  title={TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension},
   author={Joshi, Mandar and Choi, Eunsol and Weld, Daniel S and Zettlemoyer, Luke},
-  journal={arXiv preprint arXiv:1705.03551},
+  booktitle={Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={1601--1611},
   year={2017}
 }
 
-@article{yang2018hotpotqa,
-  title={HotpotQA: A dataset for diverse, explainable multi-hop question answering},
-  author={Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William W and Salakhutdinov, Ruslan and Manning, Christopher D},
-  journal={arXiv preprint arXiv:1809.09600},
+@inproceedings{yang2018hotpotqa,
+  title={HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering},
+  author={Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William and Salakhutdinov, Ruslan and Manning, Christopher D},
+  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
+  pages={2369--2380},
   year={2018}
 }
-
 
 @inproceedings{SuperGLUE,
  author = {Wang, Alex and Pruksachatkun, Yada and Nangia, Nikita and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel},
  booktitle = {Advances in Neural Information Processing Systems},
- editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
- pages = {},
  publisher = {Curran Associates, Inc.},
  title = {SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems},
  url = {https://proceedings.neurips.cc/paper_files/paper/2019/file/4496bf24afe7fab6f046bf4923da8de6-Paper.pdf},
@@ -53,34 +54,23 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % MODELS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-@article{devlin2018bert,
-  title={Bert: Pre-training of deep bidirectional transformers for language understanding},
+@inproceedings{devlin2019bert,
+  title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding},
   author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
-  journal={arXiv preprint arXiv:1810.04805},
-  year={2018}
+  booktitle={Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},
+  pages={4171--4186},
+  year={2019}
 }
 
 @article{T5,
-  author    = {Colin Raffel and
-               Noam Shazeer and
-               Adam Roberts and
-               Katherine Lee and
-               Sharan Narang and
-               Michael Matena and
-               Yanqi Zhou and
-               Wei Li and
-               Peter J. Liu},
-  title     = {Exploring the Limits of Transfer Learning with a Unified Text-to-Text
-               Transformer},
-  journal   = {CoRR},
-  volume    = {abs/1910.10683},
-  year      = {2019},
-  url       = {http://arxiv.org/abs/1910.10683},
-  eprinttype = {arXiv},
-  eprint    = {1910.10683},
-  timestamp = {Fri, 05 Feb 2021 15:43:41 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-1910-10683.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  title={Exploring the limits of transfer learning with a unified text-to-text transformer},
+  author={Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matena, Michael and Zhou, Yanqi and Li, Wei and Liu, Peter J},
+  journal={The Journal of Machine Learning Research},
+  volume={21},
+  number={1},
+  pages={5485--5551},
+  year={2020},
+  publisher={JMLRORG}
 }
 
 @article{touvron2023llama,
@@ -114,10 +104,11 @@
 }
 
 % DPR - dense passage retreival
-@article{karpukhin2020dense,
-  title={Dense passage retrieval for open-domain question answering},
-  author={Karpukhin, Vladimir and O{\u{g}}uz, Barlas and Min, Sewon and Lewis, Patrick and Wu, Ledell and Edunov, Sergey and Chen, Danqi and Yih, Wen-tau},
-  journal={arXiv preprint arXiv:2004.04906},
+@inproceedings{karpukhin2020dense,
+  title={Dense Passage Retrieval for Open-Domain Question Answering},
+  author={Karpukhin, Vladimir and Oguz, Barlas and Min, Sewon and Lewis, Patrick and Wu, Ledell and Edunov, Sergey and Chen, Danqi and Yih, Wen-tau},
+  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages={6769--6781},
   year={2020}
 }
 
@@ -132,7 +123,7 @@
 }
 
 @inproceedings{papineni2002bleu,
-  title={Bleu: a method for automatic evaluation of machine translation},
+  title={BLEU: a method for automatic evaluation of machine translation},
   author={Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing},
   booktitle={Proceedings of the 40th annual meeting of the Association for Computational Linguistics},
   pages={311--318},
