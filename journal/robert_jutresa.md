@@ -10,14 +10,14 @@
 * **20th (1h)**: Preparing the cleaned version of the extracted questions and answers for the client. Send it over e-mail (1h).
 * **30th (30 min)**: Meeting with NLB - talked about the clean data, got an updated set. Talked about Cloud Computing platform with the advisor from the industry and got access to it. Made a plan for the next week.
 
-## April 2020 (38h)
+## April 2020 (49h)
 * **4th (6h)**: Working with my coworker - getting a baseline comparison of predictions from a model without fine tunning, working on the environment, and preparing a feature plan for development and testing of the main model.
 * **5th (8h)**: Working with my coworker, meeting with the professor - original fine tuning, setting up a Sequence Extractive model, planning the next steps.
 * **11th (8h)**: Working with my coworker - setting up a extractive model, starting the fine tunning process, further research, developing a plan.
 * **12th (10h)**: Working with my coworker, meeting with the professor, meeting with NLB - fine tunning the model, setting up evaluation methods, comparing to a baseline model, future planning, writing the interim report, and status update.
 * **13th (4h)**: Setting up a dense passage retrieval script, research, environment management.
 * **14th (2h)**: Code/comment management, working environment assurance, report rereading, merging the development branch into master.
-* **15th (1h)**: Interim report, minor changes and content updates based on advisor fedback.
+* **15th (1h)**: Interim report, minor changes, content updates based on advisor feedback and references fixes.  
 ...
 
 ## May 2020 ([total hours for May])
