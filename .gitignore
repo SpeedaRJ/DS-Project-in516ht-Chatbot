@@ -281,3 +281,4 @@ TSWLatexianTemp*
 #*Notes.bib
 src/initial_moddeling/distilbert-nlb-qa
 src/dpr-testing/faiss_document_store.db
+src/initial_moddeling/t5-qa/models

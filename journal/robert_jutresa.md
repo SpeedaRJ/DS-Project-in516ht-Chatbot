@@ -20,8 +20,8 @@
 * **15th (1h)**: Interim report, minor changes, content updates based on advisor feedback and references fixes.  
 ...
 
-## May 2020 ([total hours for May])
-
+## May 2020 (4h)
+* **5th (6h)**: Working by myself - automatic question - answer - context generation for the 2022 report, collaboration with the client for a better dataset and setting plans for executing the plan.
 ...
 
 ## June 2020 ([total hours for June])
