@@ -18,11 +18,10 @@
 * **13th (4h)**: Setting up a dense passage retrieval script, research, environment management.
 * **14th (2h)**: Code/comment management, working environment assurance, report rereading, merging the development branch into master.
 * **15th (1h)**: Interim report, minor changes, content updates based on advisor feedback and references fixes.  
-...
 
 ## May 2020 (4h)
 * **5th (6h)**: Working by myself - automatic question - answer - context generation for the 2022 report, collaboration with the client for a better dataset and setting plans for executing the plan.
-...
+* **9th (8h)**: Working with my coworker - setting up the full stable conda environment, testing functionalities of all scripts, setting up functional FAISS document store, building the full query - context extraction - answer generation pipeline.
 
 ## June 2020 ([total hours for June])
 

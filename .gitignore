@@ -279,7 +279,7 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
-src/initial_moddeling/distilbert-nlb-qa
+src/initial_moddeling/distilbert-qa/distilbert-nlb-qa
 src/dpr-testing/faiss_document_store.db
 src/initial_moddeling/t5-qa/t5-small-finetuned-squadv2-finetuned-NLB-QA
 src/dpr-testing/document_store.faiss
