@@ -28,9 +28,13 @@
 * **12th** (10h): Working with my coworker - fine tuning, baseline evaluation, planning the next steps, meeting with the professor and meeting with NLB advisors.
 * **13th** (2h): Tweaking, modifying and proofreading the intermediate report, looking at some possibilities for the generative approach.
 
-## May 2020 ([total hours for May])
+## May 2020 (29h)
+**5th** (5h): Setting up another environment with cudatoolkit, initial T5 testing and trying to set up fine tunning
+**6th** (8h): Setting up fine tunning with the example script with no success, trying to find a solution
+**7th** (3h): Still trying to find a solution for fine tunning, looking at already trained DPR models
+**8th** (6h): Managed to get the fine tunning script to work, debugging problems with padding tokens, trying to find a solution. Trying training with different parameters. Looking at other generative model possibilities (LLaMA).
+**9th** (7h): Working with my coworker - updating the environment, testing other generative models, looking at how to set up DPR and the entire pipeline.
 
-...
 
 ## June 2020 ([total hours for June])
 
