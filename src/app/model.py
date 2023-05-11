@@ -5,9 +5,11 @@ from haystack.pipelines import Pipeline
 
 import pathlib as pl
 
+
 def build_document_store():
     converter = PDFToTextConverter(remove_numeric_tables=True)
-    extracted = converter.convert(file_path=pl.Path("../data/raw/sustainability-report-2020.pdf"), meta=False, encoding="UTF-8")[0]
+    extracted = converter.convert(file_path=pl.Path(
+        "../data/raw/sustainability-report-2020.pdf"), meta=False, encoding="UTF-8")[0]
     preprocessor = PreProcessor(
         clean_empty_lines=True,
         clean_whitespace=True,
@@ -18,7 +20,8 @@ def build_document_store():
         split_overlap=0
     )
     cleaned = preprocessor.process([extracted])
-    document_store = FAISSDocumentStore(faiss_index_factory_str='Flat', similarity="dot_product")
+    document_store = FAISSDocumentStore(
+        faiss_index_factory_str='Flat', similarity="dot_product")
     document_store.write_documents(cleaned)
     retriever = DensePassageRetriever(
         document_store=document_store,
@@ -29,8 +32,10 @@ def build_document_store():
     document_store.update_embeddings(retriever)
     document_store.save("document_store.faiss")
 
+
 def read_document_store():
     return FAISSDocumentStore.load("document_store.faiss")
+
 
 def build_retriever(ds):
     retriever = DensePassageRetriever(
@@ -41,17 +46,21 @@ def build_retriever(ds):
     )
     return retriever
 
+
 def build_reader():
     return TransformersReader(model_name_or_path="..\initial_moddeling\distilbert-qa\distilbert-nlb-qa", use_gpu=True)
 
+
 def build_generator():
     return Seq2SeqGenerator(model_name_or_path="../initial_moddeling/t5-qa/t5-small-finetuned-squadv2-finetuned-NLB-QA/", input_converter=_BartEli5Converter())
+
 
 def build_pipeline(model, retriever):
     pipe = Pipeline()
     pipe.add_node(component=retriever, name="Retriever", inputs=["Query"])
     pipe.add_node(component=model, name="Model", inputs=["Retriever"])
     return pipe
+
 
 def run_query(model, query):
     return model.run(query=query, params={"Model": {"top_k": 3}})
