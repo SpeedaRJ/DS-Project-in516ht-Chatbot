@@ -6,10 +6,10 @@ from haystack.pipelines import Pipeline
 import pathlib as pl
 
 
-def build_document_store():
+def build_document_store(year=2022):
     converter = PDFToTextConverter(remove_numeric_tables=True)
     extracted = converter.convert(file_path=pl.Path(
-        "../data/raw/sustainability-report-2020.pdf"), meta=False, encoding="UTF-8")[0]
+        f"../data/raw/sustainability-report-{year}.pdf"), meta=False, encoding="UTF-8")[0]
     preprocessor = PreProcessor(
         clean_empty_lines=True,
         clean_whitespace=True,
@@ -47,12 +47,12 @@ def build_retriever(ds):
     return retriever
 
 
-def build_reader():
-    return TransformersReader(model_name_or_path="..\initial_moddeling\distilbert-qa\distilbert-nlb-qa", use_gpu=True)
+def build_reader(year=2022):
+    return TransformersReader(model_name_or_path=f"..\initial_moddeling\distilbert-qa\distilbert-nlb-qa-{year}", use_gpu=True)
 
 
-def build_generator():
-    return Seq2SeqGenerator(model_name_or_path="../initial_moddeling/t5-qa/t5-small-finetuned-squadv2-finetuned-NLB-QA/", input_converter=_BartEli5Converter())
+def build_generator(year=2022):
+    return Seq2SeqGenerator(model_name_or_path=f"../initial_moddeling/t5-qa/t5-small-finetuned-squadv2-finetuned-NLB-QA-{year}", input_converter=_BartEli5Converter())
 
 
 def build_pipeline(model, retriever):
