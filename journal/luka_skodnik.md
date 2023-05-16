@@ -28,16 +28,22 @@
 * **12th** (10h): Working with my coworker - fine tuning, baseline evaluation, planning the next steps, meeting with the professor and meeting with NLB advisors.
 * **13th** (2h): Tweaking, modifying and proofreading the intermediate report, looking at some possibilities for the generative approach.
 
-## May 2020 (29h)
-**5th** (5h): Setting up another environment with cudatoolkit, initial T5 testing and trying to set up fine tunning
-**6th** (8h): Setting up fine tunning with the example script with no success, trying to find a solution
-**7th** (3h): Still trying to find a solution for fine tunning, looking at already trained DPR models
-**8th** (6h): Managed to get the fine tunning script to work, debugging problems with padding tokens, trying to find a solution. Trying training with different parameters. Looking at other generative model possibilities (LLaMA).
-**9th** (7h): Working with my coworker - updating the environment, testing other generative models, looking at how to set up DPR and the entire pipeline.
+## May 2020 (53h)
+
+* **5th** (5h): Setting up another environment with cudatoolkit, initial T5 testing and trying to set up fine tunning
+* **6th** (8h): Setting up fine tunning with the example script with no success, trying to find a solution
+* **7th** (3h): Still trying to find a solution for fine tunning, looking at already trained DPR models
+* **8th** (6h): Managed to get the fine tunning script to work, debugging problems with padding tokens, trying to find a solution. Trying training with different parameters. Looking at other generative model possibilities (LLaMA).
+* **9th** (7h): Working with my coworker - updating the environment, testing other generative models, looking at how to set up DPR and the entire pipeline.
+* **10th** (6h): Working with my coworker - Meeting with NLB - talking about the final data (we should get it by the end of the week), planning the final report, setting up pipeline, trying to debug the base t5 model without success.
+* **11th** (3h): Meeting with professor, trying to debug the base t5 and get predictions from LLaMA model without success.
+* **12th** (3h): Still trying to debug the base t5 model, trying to get predictions from LLaMA model. Realizing that for efficiently running LLaMA we need the environment on databricks set up (it runs too slowly on local machine) - we probably wont have enough time to test this thoroughly and implement it to the end.
+* **15th** (6h): Starting to reorganize the report for the final submission. Looking at the new data (handwritten one) and training models that we will need for the results in report. Realizing that the "bug" with t5 base size model probably is not a bug as with a different provided context we get results as expected - just weird behavior. (why did i spend so much time on this and i'm still not sure 100% (╯°□°）╯︵ )
+* **16th** (6h): Continuing work from yesterday - new data, models, results, report.
 
 
 ## June 2020 ([total hours for June])
 
 ...
 
-## Total: [total sum of hours]
+## Total: 106h30min
