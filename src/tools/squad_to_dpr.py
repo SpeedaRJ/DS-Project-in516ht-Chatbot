@@ -111,7 +111,7 @@ class HaystackDocumentStore:
         if not es.ping():
             logger.info("Starting Elasticsearch ...")
             status = subprocess.run(
-                ['docker run -d -p 9200:9200 -e "discovery.type=single-node" elasticsearch:7.9.2'], shell=True
+                ['docker run -d -p 9200:9200 -e "discovery.type=single-node" elasticsearch:7.17.2'], shell=True
             )
             if status.returncode:
                 raise Exception("Failed to launch Elasticsearch.")
@@ -265,7 +265,7 @@ def main(
 
     # 1. Load squad file data
     squad_file_path, squad_data = load_squad_file(squad_file_path=squad_input_filename)
-
+    
     # 2. Prepare document store
     store_factory = HaystackDocumentStore(store_type=document_store_type_config[0], **document_store_type_config[1])
     document_store: Union[ElasticsearchDocumentStore, FAISSDocumentStore] = store_factory.get_document_store()
@@ -278,7 +278,7 @@ def main(
         document_store=document_store, retriever_type=retriever_type_config[0], **retriever_type_config[1]
     )
     retriever = retriever_factory.get_retriever()
-
+    
     # 5. Get embeddings if needed
     if retriever_type_config[0] in ["DensePassageRetriever", "EmbeddingRetriever"]:
         document_store.update_embeddings(retriever)
@@ -290,6 +290,7 @@ def main(
 
     # 7. Split (maybe) and save dataset
     total_nb_questions = get_number_of_questions(squad_data)
+    print(total_nb_questions)
     save_dataset(
         iter_dpr=iter_DPR,
         dpr_output_filename=dpr_output_filename,
@@ -337,8 +338,8 @@ if __name__ == "__main__":
         split_respect_sentence_boundary=False,
         clean_whitespace=False,
     )
-    squad_input_filename = Path("../data/clean/sustainability-report-2020-squad-format.json")
-    dpr_output_filename = Path("../data/clean/sustainability-report-2020-dpr-format.json")
+    squad_input_filename = Path(args.squad_input_filename)
+    dpr_output_filename = Path(args.dpr_output_filename)
     num_hard_negative_ctxs = args.num_hard_negative_ctxs
     split_dataset = args.split_dataset
 
@@ -346,7 +347,7 @@ if __name__ == "__main__":
     store_dpr_config = {"embedding_field": "embedding", "embedding_dim": 768}
 
     retriever_bm25_config: dict = {}
-    
+
     main(
         squad_input_filename=squad_input_filename,
         dpr_output_filename=dpr_output_filename,
