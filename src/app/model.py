@@ -6,7 +6,7 @@ from haystack.pipelines import Pipeline
 import pathlib as pl
 
 
-def build_document_store(year=2022):
+def build_document_store(year=2020):
     converter = PDFToTextConverter(remove_numeric_tables=True)
     extracted = converter.convert(file_path=pl.Path(
         f"../data/raw/sustainability-report-{year}.pdf"), meta=False, encoding="UTF-8")[0]

@@ -286,6 +286,3 @@ src/initial_moddeling/distilbert-qa/distilbert-nlb-qa-2022
 src/initial_moddeling/t5-qa/t5-small-finetuned-squadv2-finetuned-NLB-QA-2020
 src/initial_moddeling/t5-qa/t5-small-finetuned-squadv2-finetuned-NLB-QA-2022
 src/initial_moddeling/t5-qa/models
-*.faiss
-src/app/*.json
-*.db
