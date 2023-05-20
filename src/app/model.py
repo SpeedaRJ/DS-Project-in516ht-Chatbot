@@ -6,7 +6,7 @@ from haystack.pipelines import Pipeline
 import pathlib as pl
 
 
-def build_document_store(year=2042):
+def build_document_store(year):
     converter = PDFToTextConverter(remove_numeric_tables=True)
     extracted = converter.convert(file_path=pl.Path(
         f"../data/raw/sustainability-report-{year}.pdf"), meta=False, encoding="UTF-8")[0]
@@ -34,25 +34,30 @@ def build_document_store(year=2042):
 
 
 def read_document_store():
-    return FAISSDocumentStore.load("document_store.faiss")
+    return FAISSDocumentStore.load(index_path="document_store.faiss", config_path="document_store.json")
 
 
-def build_retriever(ds):
-    retriever = DensePassageRetriever(
-        document_store=ds,
-        query_embedding_model="facebook/dpr-question_encoder-single-nq-base",
-        passage_embedding_model="facebook/dpr-ctx_encoder-single-nq-base",
-        use_gpu=True
-    )
+def build_retriever(ds, year, dpr):
+    if dpr:
+        retriever = DensePassageRetriever.load(load_dir=f"../../data/models/DPR/{year}", document_store=ds, use_gpu=True)
+    else: 
+        retriever = DensePassageRetriever(
+            document_store=ds,
+            query_embedding_model="facebook/dpr-question_encoder-single-nq-base",
+            passage_embedding_model="facebook/dpr-ctx_encoder-single-nq-base",
+            use_gpu=True
+        )
     return retriever
 
 
-def build_reader(year=2022):
-    return TransformersReader(model_name_or_path=f"..\initial_moddeling\distilbert-qa\distilbert-nlb-qa-{year}", use_gpu=True)
+def build_reader(year, db):
+    path = "../data/models/BERT/"
+    return TransformersReader(model_name_or_path=f"{path}distilbert-base-cased-distilled-squad-finetuned-NLB-QA-{year}-{db}", use_gpu=True)
 
 
-def build_generator(year=2022):
-    return Seq2SeqGenerator(model_name_or_path=f"../initial_moddeling/t5-qa/t5-small-finetuned-squadv2-finetuned-NLB-QA-{year}", input_converter=_BartEli5Converter())
+def build_generator(year, db):
+    path = "../data/models/T5/"
+    return Seq2SeqGenerator(model_name_or_path=f"{path}t5-small-finetuned-squadv2-finetuned-NLB-QA-{year}-{db}", input_converter=_BartEli5Converter())
 
 
 def build_pipeline(model, retriever):
