@@ -28,7 +28,7 @@
 * **12th** (10h): Working with my coworker - fine tuning, baseline evaluation, planning the next steps, meeting with the professor and meeting with NLB advisors.
 * **13th** (2h): Tweaking, modifying and proofreading the intermediate report, looking at some possibilities for the generative approach.
 
-## May 2020 (53h)
+## May 2020 (73h)
 
 * **5th** (5h): Setting up another environment with cudatoolkit, initial T5 testing and trying to set up fine tunning
 * **6th** (8h): Setting up fine tunning with the example script with no success, trying to find a solution
@@ -40,10 +40,13 @@
 * **12th** (3h): Still trying to debug the base t5 model, trying to get predictions from LLaMA model. Realizing that for efficiently running LLaMA we need the environment on databricks set up (it runs too slowly on local machine) - we probably wont have enough time to test this thoroughly and implement it to the end.
 * **15th** (6h): Starting to reorganize the report for the final submission. Looking at the new data (handwritten one) and training models that we will need for the results in report. Realizing that the "bug" with t5 base size model probably is not a bug as with a different provided context we get results as expected - just weird behavior. (why did i spend so much time on this and i'm still not sure 100% (╯°□°）╯︵ )
 * **16th** (6h): Continuing work from yesterday - new data, models, results, report.
-
+* **17th** (8h): Meeting with NLB advisor, working with my coworker - continuing work from yesterday - new data, models, results, report.
+* **18th** (8h): Working with my coworker - continuing work from yesterday - new data, models, results, report.
+* **19th** (1h): Realizing we have a small bug and fixing it
+* **20th** (3h): Updating evaluation, models
 
 ## June 2020 ([total hours for June])
 
 ...
 
-## Total: 106h30min
+## Total: 126h30min
