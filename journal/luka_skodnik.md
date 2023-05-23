@@ -28,7 +28,7 @@
 * **12th** (10h): Working with my coworker - fine tuning, baseline evaluation, planning the next steps, meeting with the professor and meeting with NLB advisors.
 * **13th** (2h): Tweaking, modifying and proofreading the intermediate report, looking at some possibilities for the generative approach.
 
-## May 2020 (73h)
+## May 2020 (91h30min)
 
 * **5th** (5h): Setting up another environment with cudatoolkit, initial T5 testing and trying to set up fine tunning
 * **6th** (8h): Setting up fine tunning with the example script with no success, trying to find a solution
@@ -44,9 +44,12 @@
 * **18th** (8h): Working with my coworker - continuing work from yesterday - new data, models, results, report.
 * **19th** (1h): Realizing we have a small bug and fixing it
 * **20th** (3h): Updating evaluation, models
+* **21st** (1h30min): Cleaning up things in interim report, creating table templates for final report, rereading related work and methodology to see how much we need to change
+* **22nd** (9h): Working with my coworker - qualitative evaluation, writing report, finalizing the project
+* **23rd** (8h): Qualitative evaluation - looking through examples to include in report, writing the report to send for review before the final submission
 
 ## June 2020 ([total hours for June])
 
 ...
 
-## Total: 126h30min
+## Total: 145h
