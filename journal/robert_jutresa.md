@@ -19,7 +19,7 @@
 * **14th (2h)**: Code/comment management, working environment assurance, report rereading, merging the development branch into master.
 * **15th (1h)**: Interim report, minor changes, content updates based on advisor feedback and references fixes.  
 
-## May 2020 (44h)
+## May 2020 (59h)
 * **5th (6h)**: Working by myself - automatic question - answer - context generation for the 2022 report, collaboration with the client for a better dataset and setting plans for executing the plan.
 * **9th (8h)**: Working with my coworker - setting up the full stable conda environment, testing functionalities of all scripts, setting up functional FAISS document store, building the full query - context extraction - answer generation pipeline.
 * **10th (6h)**: Meeting with the client - talking about the final data (we should get it by the end of the week), planning the final report, setting up the full generative pipeline, making an MVP for model usage.
@@ -27,6 +27,8 @@
 * **18th (8h)**: Meeting with the professor, working with my coworker - implementing dpr fine tunning, going over final steps, setting up some extra scripts, final model training.
 * **19th (7h)**: Working by myself - full data dpr fine-tunning, all model training, roberta fine-tunning, running pipeline evaluation.
 * **20th (1h)**: Working by myself - some application updates.
+* **22nd (9h)**: Working with my coworker - qualitative evaluation, writing report, finalizing the project.
+* **23rd (6h)**: Working by myself - pipeline diagram, report fixing and finalization.
 
 ## June 2020 ([total hours for June])
 
