@@ -3,6 +3,9 @@ from haystack.nodes import DensePassageRetriever, PreProcessor, PDFToTextConvert
 from haystack.nodes.answer_generator.transformers import _BartEli5Converter
 from haystack.pipelines import Pipeline
 
+import datetime
+import torch
+
 import pathlib as pl
 
 
@@ -67,4 +70,30 @@ def build_pipeline(model, retriever):
 
 
 def run_query(model, query):
-    return model.run(query=query, params={"Model": {"top_k": 3}})
+    return model.run(query=query, params={"Model": {"top_k": 1}})
+
+
+class ChatBot:
+  def __init__(self, pipeline):
+    self.pipe = pipeline
+    self.chat_history = []
+    self.chat_history_ids = None
+    
+
+  def get_reply(self, user_message):
+    # save message from the user
+    self.chat_history.append({
+      'text':user_message, 
+      'time':str(datetime.datetime.now().time().replace(microsecond=0))
+    })
+    
+    answers = run_query(self.pipe, user_message)
+    decoded_message =  answers["answers"][0].to_dict()["answer"]
+    
+    # save reply from the bot
+    self.chat_history.append({
+      'text':decoded_message, 
+      'time':str(datetime.datetime.now().time().replace(microsecond=0))
+    })
+    
+    return decoded_message
