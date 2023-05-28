@@ -19,7 +19,7 @@
 * **14th (2h)**: Code/comment management, working environment assurance, report rereading, merging the development branch into master.
 * **15th (1h)**: Interim report, minor changes, content updates based on advisor feedback and references fixes.  
 
-## May 2022 (62h)
+## May 2022 (73h)
 * **5th (6h)**: Working by myself - automatic question - answer - context generation for the 2022 report, collaboration with the client for a better dataset and setting plans for executing the plan.
 * **9th (8h)**: Working with my coworker - setting up the full stable conda environment, testing functionalities of all scripts, setting up functional FAISS document store, building the full query - context extraction - answer generation pipeline.
 * **10th (6h)**: Meeting with the client - talking about the final data (we should get it by the end of the week), planning the final report, setting up the full generative pipeline, making an MVP for model usage.
@@ -30,6 +30,6 @@
 * **22nd (9h)**: Working with my coworker - qualitative evaluation, writing report, finalizing the project.
 * **23rd (6h)**: Working by myself - pipeline diagram, report fixing and finalization.
 * **24rd (3h)**: Working by myself - fixing report from clients feedback.
-* **27th ()**: Working with my coworker - working on the report, presentation and SE analysis.
+* **27th (11h)**: Working with my coworker and by myself - working on the report, presentation and SE analysis.
 
 ## Total: [total sum of hours]
