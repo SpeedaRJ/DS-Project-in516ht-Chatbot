@@ -1,0 +1,3145 @@
+{
+    "version": "train",
+    "data": [
+        {
+            "title": "Title 170",
+            "paragraphs": [
+                {
+                    "context": " is controlledby the organisation, who arecovered by such a system100% of all employeesb. the number and percentage of allemployees and ",
+                    "qas": [
+                        {
+                            "id": "170",
+                            "question": "What is the number of employees covered by an occupational health and safety management system?",
+                            "answers": [
+                                {
+                                    "text": "100%",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 113",
+            "paragraphs": [
+                {
+                    "context": "company to manage these risks.The key goal of NLB d.d. is to prevent mobbing and any harassment ofemployees and to ensure a workplace which successfully prevents this so thatno",
+                    "qas": [
+                        {
+                            "id": "113",
+                            "question": "What does NLB aim to prevent?",
+                            "answers": [
+                                {
+                                    "text": "mobbing and any harassment ofemployees",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 75",
+            "paragraphs": [
+                {
+                    "context": " reduced volume of consumed paper in the periodfrom 2018 to 2020.In 2020, NLB d.d. used 17.70 sheets of paper per employee per day. Thereason",
+                    "qas": [
+                        {
+                            "id": "75",
+                            "question": "What year did NLB d.d. use 17.70 sheets of paper per employee per day?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 60
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 55",
+            "paragraphs": [
+                {
+                    "context": "ndards 2021 RoadmapSHIMMPO is a team of young people, led by sculptorBogdan Darmanovi\u0107, gathered around the idea ofapplied sculpture.Their starting point i",
+                    "qas": [
+                        {
+                            "id": "55",
+                            "question": "Who is the leader of the SHIMMPO team?",
+                            "answers": [
+                                {
+                                    "text": "Bogdan Darmanovi\u0107",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 119",
+            "paragraphs": [
+                {
+                    "context": "Thetransparency of products and services and employee behaviour is in linewith the NLB Group Code of Conduct. The employees in banks",
+                    "qas": [
+                        {
+                            "id": "119",
+                            "question": "What is the NLB Group Code of Conduct?",
+                            "answers": [
+                                {
+                                    "text": "Thetransparency of products and services and employee behaviour",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 135",
+            "paragraphs": [
+                {
+                    "context": "n working from home is ensured, as well as uninterruptedoperation of standardised dedicated tools e.g., Sophos antivirus protection provided instructions to emplo",
+                    "qas": [
+                        {
+                            "id": "135",
+                            "question": "What does Sophos antivirus protect?",
+                            "answers": [
+                                {
+                                    "text": "standardised dedicated tools",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 66",
+            "paragraphs": [
+                {
+                    "context": "Developing a communications plan to position NLB as a market leader ingreen/sustainability financing and identifying and pursuing partnerships togenerate green/sustainab",
+                    "qas": [
+                        {
+                            "id": "66",
+                            "question": "What is NLB a market leader in?",
+                            "answers": [
+                                {
+                                    "text": "green/sustainability financing",
+                                    "answer_start": 70
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 29",
+            "paragraphs": [
+                {
+                    "context": "th theEuropean Bank for Reconstruction and Development EBRD and in 2020the Contract of Guarantees with the Multilateral Investment Guarantee",
+                    "qas": [
+                        {
+                            "id": "29",
+                            "question": "In what year did the Bank sign a Contract of Guarantees with the Multilateral Investment Guarantee Agency?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 176",
+            "paragraphs": [
+                {
+                    "context": "anka the New Member of theNLB Group FamilyWith a share capital of EUR 340 million and total capital amounting toEUR 655 million, we are one of the lea",
+                    "qas": [
+                        {
+                            "id": "176",
+                            "question": "What is the share capital of the bank?",
+                            "answers": [
+                                {
+                                    "text": "EUR 340 million",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 65",
+            "paragraphs": [
+                {
+                    "context": "EBRD,and in 2020 the Contract of Guarantees with MIGA. Therefore, in 2020 theNLB Group successfully established a basic mechanism for environm",
+                    "qas": [
+                        {
+                            "id": "65",
+                            "question": "In what year did the NLB Group establish a basic mechanism for environmental and social screening of current or potential financing applications against MIGA and EBRD Exclusion List?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 12
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 67",
+            "paragraphs": [
+                {
+                    "context": "to 105 MW.The participation of NLB Group in this facility amounts to 23 million EUR.The project of the Selac wind farm will contribute in the production",
+                    "qas": [
+                        {
+                            "id": "67",
+                            "question": "How much does the NLB Group contribute to the project of the Selac wind farm?",
+                            "answers": [
+                                {
+                                    "text": "23 million EUR",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 31",
+            "paragraphs": [
+                {
+                    "context": "Management System ESMSand comply with certain ES requirements. In 2020, considerable progresswas made in the area of establishing a basic m",
+                    "qas": [
+                        {
+                            "id": "31",
+                            "question": "In what year did significant progress be made in establishing a basic mechanism for ES screening?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 12",
+            "paragraphs": [
+                {
+                    "context": "der than 50 years.Altogether, 42% of the newly employedwere men and 58% women. ",
+                    "qas": [
+                        {
+                            "id": "12",
+                            "question": "What percent of the new employed were women?",
+                            "answers": [
+                                {
+                                    "text": "58%",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 41",
+            "paragraphs": [
+                {
+                    "context": "hanged theway we report about Environmental, Social, and Governance ESG matters,in order to better respond to our stakeholder needs. This r",
+                    "qas": [
+                        {
+                            "id": "41",
+                            "question": "What is the acronym for the NLB Group Sustainability Report 2020?",
+                            "answers": [
+                                {
+                                    "text": "ESG",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 136",
+            "paragraphs": [
+                {
+                    "context": "merSatisfactionReorganisation of NLB Contact Centre due to COVID-19NLB Contact Centre is the only contact centre in the field of bankingin Slovenia, that ",
+                    "qas": [
+                        {
+                            "id": "136",
+                            "question": "What is the only contact center in the field of banking in Slovenia?",
+                            "answers": [
+                                {
+                                    "text": "NLB Contact Centre",
+                                    "answer_start": 33
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 90",
+            "paragraphs": [
+                {
+                    "context": "roupAt the end of 2020, the average age of employees in NLB Group was44.1 years.NLB Banka,Banja LukaNLB Banka,PodgoricaNLB Banka,SarajevoNLB B",
+                    "qas": [
+                        {
+                            "id": "90",
+                            "question": "What was the average age of employees in the NLB Group at the end of 2020?",
+                            "answers": [
+                                {
+                                    "text": "44.1 years",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 147",
+            "paragraphs": [
+                {
+                    "context": "s from tax authorities will beunable to do so. FATCA focuses only on tax evasion by US Persons, whilstthe CRS targets offshore tax evasion based on an account hold",
+                    "qas": [
+                        {
+                            "id": "147",
+                            "question": "What does FATCA focus on?",
+                            "answers": [
+                                {
+                                    "text": "tax evasion by US Persons",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 104",
+            "paragraphs": [
+                {
+                    "context": "ce in case of prolonged sick leave, and sportsactivities, For all NLB Family Day.It means a lot to us that most of our employees appreciate and take ",
+                    "qas": [
+                        {
+                            "id": "104",
+                            "question": "What is the name of the day that NLB offers to employees in case of prolonged sick leave?",
+                            "answers": [
+                                {
+                                    "text": "NLB Family Day",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 109",
+            "paragraphs": [
+                {
+                    "context": "and members of the NLBGroup respect human rights, employees rights, as well as general standardsof conduct defined in the NLB Groups C",
+                    "qas": [
+                        {
+                            "id": "109",
+                            "question": "What does the NLB Group respect?",
+                            "answers": [
+                                {
+                                    "text": "human rights, employees rights",
+                                    "answer_start": 36
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 38",
+            "paragraphs": [
+                {
+                    "context": "rganised by CER.With the help of the IEDC WISE Institute, which is a World Institute forSustainability and Ethics in Rising Economies, headquartered at IEDC-BledSchool of Management, we established cont",
+                    "qas": [
+                        {
+                            "id": "38",
+                            "question": "What is the IEDC WISE Institute?",
+                            "answers": [
+                                {
+                                    "text": "World Institute forSustainability and Ethics in Rising Economies",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 120",
+            "paragraphs": [
+                {
+                    "context": "ode of Conduct. The employees in banks possessingbetter knowledge of products and services of the Bank better manage andadvise clients before selling products. This increa",
+                    "qas": [
+                        {
+                            "id": "120",
+                            "question": "What do employees in banks possess better knowledge of?",
+                            "answers": [
+                                {
+                                    "text": "products and services of the Bank",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 96",
+            "paragraphs": [
+                {
+                    "context": "In 2020, theproportion of staff with disabilities stood at 2%.At the end of 2020, women represented 56% of all management positions",
+                    "qas": [
+                        {
+                            "id": "96",
+                            "question": "What was the percentage of staff with disabilities in 2020?",
+                            "answers": [
+                                {
+                                    "text": "2%.",
+                                    "answer_start": 59
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 76",
+            "paragraphs": [
+                {
+                    "context": "r per employee per day. Thereasons for the reduced use of paper are a reduction in the archives on paperowing to the IT development, introduction of e-signature, the abolish",
+                    "qas": [
+                        {
+                            "id": "76",
+                            "question": "What is the reason for the reduced use of paper?",
+                            "answers": [
+                                {
+                                    "text": "a reduction in the archives on paper",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 159",
+            "paragraphs": [
+                {
+                    "context": " 25.81 Prishtina 24,42 Banja Luka40,53Data is related to used A4 paperper employee per working day.NLB d.d.",
+                    "qas": [
+                        {
+                            "id": "159",
+                            "question": "What type of paper is used per employee per working day?",
+                            "answers": [
+                                {
+                                    "text": "A4",
+                                    "answer_start": 62
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 2",
+            "paragraphs": [
+                {
+                    "context": "nagement positions. 49% ofwomen at the first management level B-1, 55%of women at the second management levelB-2, 60% of women at the th",
+                    "qas": [
+                        {
+                            "id": "2",
+                            "question": "How much of managers in the second management level are women in?",
+                            "answers": [
+                                {
+                                    "text": "55%",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 133",
+            "paragraphs": [
+                {
+                    "context": "experience with theBank, which they can do through several channels by e-mail, via the website,and social networks Facebook, Instagram, as well as directly by a call or videocall to",
+                    "qas": [
+                        {
+                            "id": "133",
+                            "question": "What are some of the ways the customer can contact the Bank?",
+                            "answers": [
+                                {
+                                    "text": "by e-mail, via the website,and social networks",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 46",
+            "paragraphs": [
+                {
+                    "context": "ey strategic areas of operations of theGroup in 2020 continued to be Retail Banking in Slovenia, Corporate Bankingin Slovenia, and Strategic Foreign Markets.In financing, the Group follows carefully drafted principles, guidel",
+                    "qas": [
+                        {
+                            "id": "46",
+                            "question": "What are the key strategic areas of operations of the Group in 2020?",
+                            "answers": [
+                                {
+                                    "text": "Retail Banking in Slovenia, Corporate Bankingin Slovenia, and Strategic Foreign Markets",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 173",
+            "paragraphs": [
+                {
+                    "context": "NLB Group 18 hours peremployee in the 2020NLB Group In 2020, 4,769 employeesparticipated in standard internaltraining programs and 2,0",
+                    "qas": [
+                        {
+                            "id": "173",
+                            "question": "How many employees participated in standard internal training programs in 2020?",
+                            "answers": [
+                                {
+                                    "text": "4,769",
+                                    "answer_start": 61
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 155",
+            "paragraphs": [
+                {
+                    "context": "rs /SEE regionNLB Group, core banking members- North Macedonia 934 100%NLB Group, non-core members /Data should be interpreted taki",
+                    "qas": [
+                        {
+                            "id": "155",
+                            "question": "How many core banking members are in North Macedonia?",
+                            "answers": [
+                                {
+                                    "text": "934",
+                                    "answer_start": 63
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 85",
+            "paragraphs": [
+                {
+                    "context": "ofemployees. Compared to 2019, the number of employees was higher by 2,914due to the acquisition of Komercijalna Banka, Beograd and its subsidi",
+                    "qas": [
+                        {
+                            "id": "85",
+                            "question": "What was the increase in the number of employees in 2019 due to the acquisition of Komercijalna Banka and its subsidiaries?",
+                            "answers": [
+                                {
+                                    "text": "2,914",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 150",
+            "paragraphs": [
+                {
+                    "context": ".b. The definition used for senior management Senior management General Managers directlysubordinated to Management Board B-1, thedirectors that a",
+                    "qas": [
+                        {
+                            "id": "150",
+                            "question": "Who are the directors that are subordinated to B-2 level?",
+                            "answers": [
+                                {
+                                    "text": "General Managers",
+                                    "answer_start": 64
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 26",
+            "paragraphs": [
+                {
+                    "context": " of NLB d.d., and in their operations they act inaccordance with the local banking and environmental legislation. In 2019, therevised Policy of the NLB Group was introduced in all c",
+                    "qas": [
+                        {
+                            "id": "26",
+                            "question": "What are NLB d.d.s operations in accordance with?",
+                            "answers": [
+                                {
+                                    "text": "local banking and environmental legislation",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 158",
+            "paragraphs": [
+                {
+                    "context": ".17.70 A4 pages per employeeper working dayNLB Group, core members36.89 A4 pages per employeeper working daySEE region Sarajevo 55.35",
+                    "qas": [
+                        {
+                            "id": "158",
+                            "question": "How many A4 pages per employee per working day does NLB Group, core members use?",
+                            "answers": [
+                                {
+                                    "text": "36.89",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 177",
+            "paragraphs": [
+                {
+                    "context": "anka the New Member of theNLB Group FamilyWith a share capital of EUR 340 million and total capital amounting toEUR 655 million, we are one of the lea",
+                    "qas": [
+                        {
+                            "id": "177",
+                            "question": "How much capital does the bank have?",
+                            "answers": [
+                                {
+                                    "text": "EUR 340 million",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 115",
+            "paragraphs": [
+                {
+                    "context": "ody implementing the tasks for NLB d.d.Also, at the NLB Group level, equal opportunities, justice, and promotingculture focused on performance are respected. The HR p",
+                    "qas": [
+                        {
+                            "id": "115",
+                            "question": "What is respected at the NLB Group level?",
+                            "answers": [
+                                {
+                                    "text": "equal opportunities, justice",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 78",
+            "paragraphs": [
+                {
+                    "context": "Building managementIn 2020, five bank branch offices of NLB d.d. were renovated. In LjubljanaNLB Tav",
+                    "qas": [
+                        {
+                            "id": "78",
+                            "question": "How many bank branch offices of NLB d.d. were renovated in 2020?",
+                            "answers": [
+                                {
+                                    "text": "five",
+                                    "answer_start": 28
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 36",
+            "paragraphs": [
+                {
+                    "context": "We proudlyjoined the initiative together with almost 100 important Slovenian companies.What is more, three NLB representative",
+                    "qas": [
+                        {
+                            "id": "36",
+                            "question": "How many Slovenian companies joined the GREENVISION initiative?",
+                            "answers": [
+                                {
+                                    "text": "almost 100",
+                                    "answer_start": 46
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 128",
+            "paragraphs": [
+                {
+                    "context": "e methods employed by the company to manage these risks.Based on the Enterprise Compliance and integrity Risk Assessment ECRAdone at the group level, NLB Group did not detect any signific",
+                    "qas": [
+                        {
+                            "id": "128",
+                            "question": "What does ECRA stand for?",
+                            "answers": [
+                                {
+                                    "text": "Enterprise Compliance and integrity Risk Assessment",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 22",
+            "paragraphs": [
+                {
+                    "context": "r responsible and diligent mentor.The Bank pays special attention to knowledge and lifelong learning. The keypillars of the socially-responsible operations of the NLB Gr",
+                    "qas": [
+                        {
+                            "id": "22",
+                            "question": "What does NLB pay special attention to?",
+                            "answers": [
+                                {
+                                    "text": "knowledge and lifelong learning",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 108",
+            "paragraphs": [
+                {
+                    "context": "ce,ethics, and integrityThe NLB Groups Code of Conduct establishes uniform rules of conduct forall NLB Group employees. In the NLB Group, we expect that all emp",
+                    "qas": [
+                        {
+                            "id": "108",
+                            "question": "What does the NLB Groups Code of Conduct establish?",
+                            "answers": [
+                                {
+                                    "text": "uniform rules of conduct",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 122",
+            "paragraphs": [
+                {
+                    "context": "r satisfaction andreliability. Members of the NLB Group manage risks in accordance with theinstructions and comply with the requirements of NLB d.d. ",
+                    "qas": [
+                        {
+                            "id": "122",
+                            "question": "How do members of the NLB Group manage risks?",
+                            "answers": [
+                                {
+                                    "text": "in accordance with theinstructions",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 114",
+            "paragraphs": [
+                {
+                    "context": "performance are respected. The HR policies and practicesare based on culture promoting equal opportunities and performance ofemployees. ",
+                    "qas": [
+                        {
+                            "id": "114",
+                            "question": "What are the HR policies and practices based on?",
+                            "answers": [
+                                {
+                                    "text": "culture promoting equal opportunities and performance ofemployees",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 11",
+            "paragraphs": [
+                {
+                    "context": "n 30 and 50 yearsold, and 3.3% were older than 50 years.Altogether, 42% of the newly employedwere men and 58% women. ",
+                    "qas": [
+                        {
+                            "id": "11",
+                            "question": "What percentage of the newly employed were men?",
+                            "answers": [
+                                {
+                                    "text": "42%",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 180",
+            "paragraphs": [
+                {
+                    "context": " of work and creativity.With the completion of the acquisition of an 83.23% ordinary shareholding inKomercijalna Banka a.d. Beograd KB at the ",
+                    "qas": [
+                        {
+                            "id": "180",
+                            "question": "What percentage of Komercijalna Banka a.d. Beograd KB did NLB acquire at the end of 2020?",
+                            "answers": [
+                                {
+                                    "text": "83.23%",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 145",
+            "paragraphs": [
+                {
+                    "context": "FATCA, CRSThe United States Foreign Account Tax Compliance Act FATCA andthe Organisation for Economic Co-operation and Developmen",
+                    "qas": [
+                        {
+                            "id": "145",
+                            "question": "What does FATCA stand for?",
+                            "answers": [
+                                {
+                                    "text": "Foreign Account Tax Compliance Act",
+                                    "answer_start": 28
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 6",
+            "paragraphs": [
+                {
+                    "context": "ion in 2020.Non-discriminationWe have a policy of zero toleranceto any form of discrimination andviolence. In reporting period, we had1 incident of discrimination, which was",
+                    "qas": [
+                        {
+                            "id": "6",
+                            "question": "What is our policy of zero tolerance to?",
+                            "answers": [
+                                {
+                                    "text": "any form of discrimination andviolence",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 27",
+            "paragraphs": [
+                {
+                    "context": "naccordance with the local banking and environmental legislation. In 2019, therevised Policy of the NLB Group was introduced in all core membe",
+                    "qas": [
+                        {
+                            "id": "27",
+                            "question": "In what year was the revised Policy of the NLB Group introduced?",
+                            "answers": [
+                                {
+                                    "text": "2019",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 93",
+            "paragraphs": [
+                {
+                    "context": "omen.Structure of departures in NLB Group by gender and ageIn 2020, 382 employees left NLB Group. Of these, 12.3% were under 30years of age,",
+                    "qas": [
+                        {
+                            "id": "93",
+                            "question": "How many employees left NLB Group in 2020?",
+                            "answers": [
+                                {
+                                    "text": "382",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 4",
+            "paragraphs": [
+                {
+                    "context": "rtunities. In 2020 the proportionof staff with disabilities stood at 2%.6,800 training programsBy the end of the year 4,769 employeespartic",
+                    "qas": [
+                        {
+                            "id": "4",
+                            "question": "In 2020, what was the proportion of staff with disabilities?",
+                            "answers": [
+                                {
+                                    "text": "2%.",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 32",
+            "paragraphs": [
+                {
+                    "context": "venia to commit to the UNEP FI Principles forResponsible Banking.On 4 September, the Bank became a signatory to the UN Principles forResponsible Ban",
+                    "qas": [
+                        {
+                            "id": "32",
+                            "question": "When did the Bank become a signatory to the UN Principles for Responsible Banking?",
+                            "answers": [
+                                {
+                                    "text": "4 Sep",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 100",
+            "paragraphs": [
+                {
+                    "context": "the work environment,all banks conduct a corporate engagement survey every second year.",
+                    "qas": [
+                        {
+                            "id": "100",
+                            "question": "How often do all banks conduct a corporate engagement survey?",
+                            "answers": [
+                                {
+                                    "text": "every second year",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 143",
+            "paragraphs": [
+                {
+                    "context": "s allow it.Processing of ComplaintsNLB d.d., has in compliance with legislation governing banking and financialservices, two-tier customer complaint resolution system and selected instituti",
+                    "qas": [
+                        {
+                            "id": "143",
+                            "question": "What is Processing of Complaints NLB d.d. in compliance with?",
+                            "answers": [
+                                {
+                                    "text": "legislation governing banking and financialservices",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 101",
+            "paragraphs": [
+                {
+                    "context": "ent. Theefficiency of the performance management process is reviewed annually inall banks and, if necessary, appropriate measures are taken. ",
+                    "qas": [
+                        {
+                            "id": "101",
+                            "question": "How is the performance management process reviewed in all banks?",
+                            "answers": [
+                                {
+                                    "text": "annually",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 168",
+            "paragraphs": [
+                {
+                    "context": "NLB Group In total, 382 employeesdeparted from NLB Groupsignificant members in 2020.50.3%",
+                    "qas": [
+                        {
+                            "id": "168",
+                            "question": "How many employees departed from NLB Group significant members in 2020?",
+                            "answers": [
+                                {
+                                    "text": "382",
+                                    "answer_start": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 10",
+            "paragraphs": [
+                {
+                    "context": "p hired 307 new employees,of which 39.7% were younger than 30years, 57% were between 30 and 50 yearsold, and 3.3% were older than 50 years.",
+                    "qas": [
+                        {
+                            "id": "10",
+                            "question": "Which percentage of employees were between 30 and 50?",
+                            "answers": [
+                                {
+                                    "text": "57%",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 118",
+            "paragraphs": [
+                {
+                    "context": "The organisational climate/employment engagement and organisational cultureare of key importance and, therefore, regular measurements are carrie",
+                    "qas": [
+                        {
+                            "id": "118",
+                            "question": "What are of key importance to the Bank?",
+                            "answers": [
+                                {
+                                    "text": "organisational climate/employment engagement and organisational culture",
+                                    "answer_start": 4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 132",
+            "paragraphs": [
+                {
+                    "context": "nages cyber risks arising from the increased volumeof work from home through implemented measures, some of which areexplained below, namelyPromoting Freedom of Expr",
+                    "qas": [
+                        {
+                            "id": "132",
+                            "question": "How does the Bank prevent or manage cyber risks arising from the increased volume of work from home?",
+                            "answers": [
+                                {
+                                    "text": "through implemented measures",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 0",
+            "paragraphs": [
+                {
+                    "context": "nts.56% of female managersAt the end of the year, women represented56% of all management positions. 49% ofwomen at the first management lev",
+                    "qas": [
+                        {
+                            "id": "0",
+                            "question": "What percentage of female managers were women at the end of the year?",
+                            "answers": [
+                                {
+                                    "text": "56%",
+                                    "answer_start": 4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 139",
+            "paragraphs": [
+                {
+                    "context": " and we have managed to introduce many long-time elderlycustomers to modern banking services that they now gladly continue to useto this day. In order to keep th",
+                    "qas": [
+                        {
+                            "id": "139",
+                            "question": "What did NLB introduce long-time elderly customers to?",
+                            "answers": [
+                                {
+                                    "text": "modern banking services",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 70",
+            "paragraphs": [
+                {
+                    "context": "ment of three monthly instalments in the totalamount of a maximum of EUR 1,000 for each client.The NLB Green Housing Loan, with special benefits in",
+                    "qas": [
+                        {
+                            "id": "70",
+                            "question": "What is the maximum amount of the NLB Green Housing Loan?",
+                            "answers": [
+                                {
+                                    "text": "EUR 1,000",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 95",
+            "paragraphs": [
+                {
+                    "context": "rnover of employees voluntary and involuntaryin NLB Group stood at 6.7%, among men it was 7.6%, and amongwomen it was 6.3%.Figure 10 Graph",
+                    "qas": [
+                        {
+                            "id": "95",
+                            "question": "What was the total turnover of employees in NLB Group in 2020?",
+                            "answers": [
+                                {
+                                    "text": "6.7%,",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 64",
+            "paragraphs": [
+                {
+                    "context": "Regulation  Governance GRI Standards 2021 RoadmapMost of the banks CSR financial budget was used to mitigate theconsequences of the Covid-19 pandemic. Since",
+                    "qas": [
+                        {
+                            "id": "64",
+                            "question": "What did the bank use to mitigate the consequences of the Covid-19 pandemic?",
+                            "answers": [
+                                {
+                                    "text": "CSR financial budget",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 44",
+            "paragraphs": [
+                {
+                    "context": "e Group consistsof NLB the Bank as the parent company in Slovenia, six subsidiary banks inSE Europe, several companies providing other serv",
+                    "qas": [
+                        {
+                            "id": "44",
+                            "question": "How many subsidiary banks are in SE Europe?",
+                            "answers": [
+                                {
+                                    "text": "six",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 152",
+            "paragraphs": [
+                {
+                    "context": " Komercijalna Banka a.d. Beogradand its subsidiaries was finished on 30.12.2020,and is thus not included in the report not todistort the data prese",
+                    "qas": [
+                        {
+                            "id": "152",
+                            "question": "When was Komercijalna Banka a.d. Beograd and its subsidiaries finished?",
+                            "answers": [
+                                {
+                                    "text": "30.12.2020",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 28",
+            "paragraphs": [
+                {
+                    "context": "In 2020, NLB Group members upgraded the Policy once againthis time consideri",
+                    "qas": [
+                        {
+                            "id": "28",
+                            "question": "In what year did NLB Group members upgrade the Policy?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 3
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 40",
+            "paragraphs": [
+                {
+                    "context": "ithin the framework of recognisedinternational standards such as the Global Reporting Initiative GRI.With this first NLB Group Sustainability Report 2020, we have changed",
+                    "qas": [
+                        {
+                            "id": "40",
+                            "question": "What is the framework for reporting non-financial information?",
+                            "answers": [
+                                {
+                                    "text": "Global Reporting Initiative GRI.",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 141",
+            "paragraphs": [
+                {
+                    "context": "the operational risk and maximising the availability of our services.Working in smaller groups at different locations also protects our employeesby reducing the chance of spreading infec",
+                    "qas": [
+                        {
+                            "id": "141",
+                            "question": "What protects our employees by reducing the chance of spreading infection?",
+                            "answers": [
+                                {
+                                    "text": "Working in smaller groups at different locations",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 142",
+            "paragraphs": [
+                {
+                    "context": "enabling sufficient safetydistance in the workplace.At the start of 2020, we enabled those hard-of-hearing to use basic bankingservices throu",
+                    "qas": [
+                        {
+                            "id": "142",
+                            "question": "In what year did we enable hard-of-hearing people to use basic banking services?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 25",
+            "paragraphs": [
+                {
+                    "context": "er society. Already in 2011,all NLB Group member banks adopted their Social and EnvironmentalPolicy following the example of NLB d.d., and in their operations they act i",
+                    "qas": [
+                        {
+                            "id": "25",
+                            "question": "What did all NLB Group member banks adopt in 2011?",
+                            "answers": [
+                                {
+                                    "text": "Social and EnvironmentalPolicy",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 23",
+            "paragraphs": [
+                {
+                    "context": "ypillars of the socially-responsible operations of the NLB Group are caringfor its employees and protection of lawfulness and integrity, as well as thepromotion of entrepreneurship, increasing financial l",
+                    "qas": [
+                        {
+                            "id": "23",
+                            "question": "What are the key pillars of the socially-responsible operations of NLB Group?",
+                            "answers": [
+                                {
+                                    "text": "caringfor its employees and protection of lawfulness and integrity",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 137",
+            "paragraphs": [
+                {
+                    "context": "f bankingin Slovenia, that enables customers to do business remotely 24 hours aday, 7 days a week. During the epidemic NLB d.d. has been seeking outnew",
+                    "qas": [
+                        {
+                            "id": "137",
+                            "question": "How long can customers do business remotely?",
+                            "answers": [
+                                {
+                                    "text": "24 hours aday",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 81",
+            "paragraphs": [
+                {
+                    "context": "el vehicles will be partly reduced. In 2020, NLB d.d. employees drove 17,297km in Ljubljana and its vicinity 3,000 km less than in 2019 using ",
+                    "qas": [
+                        {
+                            "id": "81",
+                            "question": "How many kilometers did NLB d.d. employees drive in 2020 using electric cars?",
+                            "answers": [
+                                {
+                                    "text": "17,297",
+                                    "answer_start": 70
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 79",
+            "paragraphs": [
+                {
+                    "context": "In 2020, we drove a total distance of 17,295 kmusing electric cars for business purposes car sharing. Thus, we ",
+                    "qas": [
+                        {
+                            "id": "79",
+                            "question": "How many kilometers did we drive in 2020 using electric cars for business purposes?",
+                            "answers": [
+                                {
+                                    "text": "17,295",
+                                    "answer_start": 38
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 84",
+            "paragraphs": [
+                {
+                    "context": "ofemployees. Compared to 2019, the number of employees was higher by 2,914due to the acquisition of Komercijalna Banka, Beograd and its subsidi",
+                    "qas": [
+                        {
+                            "id": "84",
+                            "question": "How many employees did the NLB Group have in 2019?",
+                            "answers": [
+                                {
+                                    "text": "2,914",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 39",
+            "paragraphs": [
+                {
+                    "context": "ether with theIEDC WISE Institute, we organised a company-wide event NLB GroupSustainability kick-off and started with the extensive awareness-raising andchanging the cu",
+                    "qas": [
+                        {
+                            "id": "39",
+                            "question": "What was the name of the company-wide event that kicked off the NLB Group Sustainability?",
+                            "answers": [
+                                {
+                                    "text": "NLB GroupSustainability kick-off",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 112",
+            "paragraphs": [
+                {
+                    "context": "For this purpose, the Bank has appointed the officer for the prevention ofharassment and mobbing at work and established ",
+                    "qas": [
+                        {
+                            "id": "112",
+                            "question": "Who has been appointed for the prevention of harassment and mobbing at work?",
+                            "answers": [
+                                {
+                                    "text": "the Bank has appointed the officer",
+                                    "answer_start": 18
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 86",
+            "paragraphs": [
+                {
+                    "context": "ructure in NLB Group by genderAt the end of 2020, NLB Group employed 69% women and 31% men. Notethat Komercijalna Banka, Beograd and its subsidiaries are not ",
+                    "qas": [
+                        {
+                            "id": "86",
+                            "question": "How many employees did NLB Group employ at the end of 2020?",
+                            "answers": [
+                                {
+                                    "text": "69% women and 31% men",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 77",
+            "paragraphs": [
+                {
+                    "context": " streamlining of the organisational structureof the bank operations, installation of central multifunctional devices forprinting, working from home, as well as other measures for reducing costs andstreamlining the Ba",
+                    "qas": [
+                        {
+                            "id": "77",
+                            "question": "What other measures are there for reducing costs and streamlining the Banks operations?",
+                            "answers": [
+                                {
+                                    "text": "installation of central multifunctional devices forprinting, working from home",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 183",
+            "paragraphs": [
+                {
+                    "context": "in our home, the SEE region.Since Komercijalna Banka was acquired on 30th December 2020, we have providedtheir non-financial statement as a separate chapter",
+                    "qas": [
+                        {
+                            "id": "183",
+                            "question": "When was Komercijalna Banka acquired?",
+                            "answers": [
+                                {
+                                    "text": "30th December 2020",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 154",
+            "paragraphs": [
+                {
+                    "context": "y employee category and region.SloveniaNLB Group core members45 57.7% of current employeesNLB Group, non-core members /SEE regionNLB G",
+                    "qas": [
+                        {
+                            "id": "154",
+                            "question": "What percentage of current employees are NLB Group core members?",
+                            "answers": [
+                                {
+                                    "text": "57.7%",
+                                    "answer_start": 64
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 47",
+            "paragraphs": [
+                {
+                    "context": "p does not finance activities that include illegalactivities, or the production and trade in weapons, political parties, politicalforums, or religious communities. ",
+                    "qas": [
+                        {
+                            "id": "47",
+                            "question": "What is one of the activities that the Group does not finance that is illegal?",
+                            "answers": [
+                                {
+                                    "text": "production and trade in weapons",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 94",
+            "paragraphs": [
+                {
+                    "context": "rnover of employees voluntary and involuntaryin NLB Group stood at 6.7%, among men it was 7.6%, and amongwomen it was 6.3%.Figure 10 Graph",
+                    "qas": [
+                        {
+                            "id": "94",
+                            "question": "What percentage of NLB employees left the organization in 2020?",
+                            "answers": [
+                                {
+                                    "text": "6.7%,",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 140",
+            "paragraphs": [
+                {
+                    "context": "g services that they now gladly continue to useto this day. In order to keep the NLB Contact Centre running 24/7 duringthe epidemic, we have relocated our operation to a number of locations, thusreduc",
+                    "qas": [
+                        {
+                            "id": "140",
+                            "question": "Why have we relocated our operation to a number of locations?",
+                            "answers": [
+                                {
+                                    "text": "to keep the NLB Contact Centre running 24/7 duringthe epidemic",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 172",
+            "paragraphs": [
+                {
+                    "context": "n, who arecovered by such a system thathas been internally audited100% of all employeesc. the number and percentage of allemployees and ",
+                    "qas": [
+                        {
+                            "id": "172",
+                            "question": "What percentage of all employees have been internally audited?",
+                            "answers": [
+                                {
+                                    "text": "100%",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 61",
+            "paragraphs": [
+                {
+                    "context": "GRI Standards 2021 RoadmapDue to its inherentlysustainable nature,HelpFrame project hasbecome the first NLB GroupsESG project that bringsbusi",
+                    "qas": [
+                        {
+                            "id": "61",
+                            "question": "What is the name of the first NLB project that supports sustainability?",
+                            "answers": [
+                                {
+                                    "text": "HelpFrame",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 73",
+            "paragraphs": [
+                {
+                    "context": "dual members, except for in Sarajevo and Belgrade, where itdecreased between 6% and 9.8% based on measured consumption. Powerconsumption in 2020 totalled 11,",
+                    "qas": [
+                        {
+                            "id": "73",
+                            "question": "What was the reduction in energy consumption in Sarajevo and Belgrade?",
+                            "answers": [
+                                {
+                                    "text": "between 6% and 9.8%",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 33",
+            "paragraphs": [
+                {
+                    "context": "in the Sustainable Development Goals andthe Paris Climate Agreement. More than 200 banks which represent arounda third of the global banking industry h",
+                    "qas": [
+                        {
+                            "id": "33",
+                            "question": "How many banks represent around a third of the global banking industry?",
+                            "answers": [
+                                {
+                                    "text": "More than 200",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 43",
+            "paragraphs": [
+                {
+                    "context": "RI Standards 2021 RoadmapNLB Group business modeland value creationThe NLB Group is the largest banking and financial group in Slovenia witha strateg",
+                    "qas": [
+                        {
+                            "id": "43",
+                            "question": "What is the largest banking and financial group in Slovenia?",
+                            "answers": [
+                                {
+                                    "text": "The NLB Group",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 138",
+            "paragraphs": [
+                {
+                    "context": " Contact Centre is the only contact centre in the field of bankingin Slovenia, that enables customers to do business remotely 24 hours aday, 7 day",
+                    "qas": [
+                        {
+                            "id": "138",
+                            "question": "What country allows customers to do business remotely 24 hours a day, 7 days a week?",
+                            "answers": [
+                                {
+                                    "text": "Slovenia",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 144",
+            "paragraphs": [
+                {
+                    "context": "rswho have appropriate internal tax controls in place. In 2020, only 11 bigtaxpayers had such a status in Slovenia.",
+                    "qas": [
+                        {
+                            "id": "144",
+                            "question": "How many big taxpayers had mutual trust status in Slovenia in 2020?",
+                            "answers": [
+                                {
+                                    "text": "11",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 62",
+            "paragraphs": [
+                {
+                    "context": "In addition, we also support a range of external initiatives such associal and humanitarian, arts and culture, health and the environment, and sports.13 NLB Group Sustainability Report 2020Contents 2020 Highlights Sus",
+                    "qas": [
+                        {
+                            "id": "62",
+                            "question": "What are some of the external initiatives that NLB supports?",
+                            "answers": [
+                                {
+                                    "text": "social and humanitarian, arts and culture, health and the environment, and sports",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 182",
+            "paragraphs": [
+                {
+                    "context": "e completion of the acquisition of an 83.23% ordinary shareholding inKomercijalna Banka a.d. Beograd KB at the end of 2020, NLB has achieved a final milestonein this i",
+                    "qas": [
+                        {
+                            "id": "182",
+                            "question": "What is the name of the financial institution that NLB acquired in 2020?",
+                            "answers": [
+                                {
+                                    "text": "Komercijalna Banka a.d. Beograd",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 123",
+            "paragraphs": [
+                {
+                    "context": "onduct set out in the NLB Group Code ofConduct. The Bank ensures the confidentiality of data both in the case of itsown data processing and in the case o",
+                    "qas": [
+                        {
+                            "id": "123",
+                            "question": "What does the Bank ensure in the case of its own data?",
+                            "answers": [
+                                {
+                                    "text": "confidentiality",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 127",
+            "paragraphs": [
+                {
+                    "context": "rruption and BriberyAwareness of the importance of the fight against corruption and bribery wasemphasised by the NLB Group in the NLB Group Code of Conduct, whi",
+                    "qas": [
+                        {
+                            "id": "127",
+                            "question": "What does NLB have zero tolerance for?",
+                            "answers": [
+                                {
+                                    "text": "corruption and bribery",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 105",
+            "paragraphs": [
+                {
+                    "context": "gular due diligence of external contractors and suppliers andthrough regular risk assessment which includes monitoring of, inter alia,human rights protection.",
+                    "qas": [
+                        {
+                            "id": "105",
+                            "question": "What includes monitoring of human rights protection?",
+                            "answers": [
+                                {
+                                    "text": "regular risk assessment",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 53",
+            "paragraphs": [
+                {
+                    "context": "ed in our operations.NLB Sustainability governance as established in 2020Compliance and integrity are integrated in our business,governance,",
+                    "qas": [
+                        {
+                            "id": "53",
+                            "question": "Compliance and integrity were established in what year?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 5",
+            "paragraphs": [
+                {
+                    "context": "o corruptionThe anticorruption policy andprocedures were revised in secondhalf of 2020. There were no confirmedcases of corruption in 2020.Non-discriminat",
+                    "qas": [
+                        {
+                            "id": "5",
+                            "question": "When were the anticorruption policies and procedures revised?",
+                            "answers": [
+                                {
+                                    "text": "secondhalf of 2020",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 125",
+            "paragraphs": [
+                {
+                    "context": "In addition, the privacy of customers andemployees is protected by compliance with regulations in the field of personal",
+                    "qas": [
+                        {
+                            "id": "125",
+                            "question": "What is protected by compliance with regulations in the field of personal data protection and implementation of internal rules and procedures?",
+                            "answers": [
+                                {
+                                    "text": "the privacy of customers andemployees",
+                                    "answer_start": 13
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 166",
+            "paragraphs": [
+                {
+                    "context": "the reporting period,by age group, gender and region.NLB In total, 162 employeesdeparted from NLB d.d. in 2020.",
+                    "qas": [
+                        {
+                            "id": "166",
+                            "question": "How many employees departed from NLB d.d. in 2020?",
+                            "answers": [
+                                {
+                                    "text": "162",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 3",
+            "paragraphs": [
+                {
+                    "context": "Women represent 31% of allSupervisory and Management Board Members.Inclusion and equal ",
+                    "qas": [
+                        {
+                            "id": "3",
+                            "question": "What percentage of Supervisory and Management Board Members are women?",
+                            "answers": [
+                                {
+                                    "text": "31%",
+                                    "answer_start": 16
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 171",
+            "paragraphs": [
+                {
+                    "context": " is controlledby the organisation, who arecovered by such a system100% of all employeesb. the number and percentage of allemployees and ",
+                    "qas": [
+                        {
+                            "id": "171",
+                            "question": "What percentage of all employees are covered by a system that has been internally audited?",
+                            "answers": [
+                                {
+                                    "text": "100%",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 49",
+            "paragraphs": [
+                {
+                    "context": "enia, the Groups vastnetwork on the SE European markets consists of 459 branches and services 2.11million active clients.1. As at 31.12.202",
+                    "qas": [
+                        {
+                            "id": "49",
+                            "question": "How many branches does the Group have on SE European markets?",
+                            "answers": [
+                                {
+                                    "text": "459",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 80",
+            "paragraphs": [
+                {
+                    "context": "siness purposes car sharing. Thus, we contributed toa reduction of 3,709 kg of CO2When using electrical vehicles instead of vehicles using liqui",
+                    "qas": [
+                        {
+                            "id": "80",
+                            "question": "How much CO2 did we reduce by using electric vehicles instead of liquid fuels?",
+                            "answers": [
+                                {
+                                    "text": "3,709 kg",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 34",
+            "paragraphs": [
+                {
+                    "context": "ant partnerships to accelerate ourimplementation of the ESG factors. NLB is the first Slovenian bank thatbecame a member of the CER Centre o",
+                    "qas": [
+                        {
+                            "id": "34",
+                            "question": "What is the first Slovenian bank to become a member of the CER institute?",
+                            "answers": [
+                                {
+                                    "text": "NLB",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 7",
+            "paragraphs": [
+                {
+                    "context": "o any form of discrimination andviolence. In reporting period, we had1 incident of discrimination, which wasresolved in February 2020 and t",
+                    "qas": [
+                        {
+                            "id": "7",
+                            "question": "How many incidents of discrimination were there during the reporting period?",
+                            "answers": [
+                                {
+                                    "text": "1",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 110",
+            "paragraphs": [
+                {
+                    "context": "oyees rights, as well as general standardsof conduct defined in the NLB Groups Code of Conduct. This defines thevalues and basic rules of ethical business conduct,",
+                    "qas": [
+                        {
+                            "id": "110",
+                            "question": "What defines the values and basic rules of ethical business conduct?",
+                            "answers": [
+                                {
+                                    "text": "NLB Groups Code of Conduct",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 91",
+            "paragraphs": [
+                {
+                    "context": "onStructure of employees by education in the NLB GroupIn NLB Group, 70% of the employees have a tertiary education level.NLB d.d.",
+                    "qas": [
+                        {
+                            "id": "91",
+                            "question": "What percentage of NLB Group employees have a tertiary education level?",
+                            "answers": [
+                                {
+                                    "text": "70%",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 83",
+            "paragraphs": [
+                {
+                    "context": "roupAt the end of 2020, the number of employees in NLB Group rose to 8,792 ofemployees. Compared to 2019, the number of employees was higher by",
+                    "qas": [
+                        {
+                            "id": "83",
+                            "question": "How many employees were in NLB Group at the end of 2020?",
+                            "answers": [
+                                {
+                                    "text": "8,792",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 162",
+            "paragraphs": [
+                {
+                    "context": " region.NLB In total, 94 new employees in 2020.NLB Group In total, 307 new employeesin 2020 significant group membersNLB d.d.",
+                    "qas": [
+                        {
+                            "id": "162",
+                            "question": "How many employees were there in 2020 significant group members?",
+                            "answers": [
+                                {
+                                    "text": "307",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 167",
+            "paragraphs": [
+                {
+                    "context": "NLB Group In total, 382 employeesdeparted from NLB Group in 2020.In total, 162 employees de",
+                    "qas": [
+                        {
+                            "id": "167",
+                            "question": "How many employees departed from NLB Group in 2020?",
+                            "answers": [
+                                {
+                                    "text": "382",
+                                    "answer_start": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 89",
+            "paragraphs": [
+                {
+                    "context": "ructure in NLB Group by genderAt the end of 2020, NLB Group employed 69% women and 31% men. Notethat Komercijalna Banka, Beograd and its subsidiaries are not ",
+                    "qas": [
+                        {
+                            "id": "89",
+                            "question": "What is the gender of the NLB group members?",
+                            "answers": [
+                                {
+                                    "text": "69% women and 31% men",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 8",
+            "paragraphs": [
+                {
+                    "context": "der than 50 years.Altogether, 42% of the newly employedwere men and 58% women. ",
+                    "qas": [
+                        {
+                            "id": "8",
+                            "question": "What percentage of female employees were employed by NLB Group in 2020?",
+                            "answers": [
+                                {
+                                    "text": "58%",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 13",
+            "paragraphs": [
+                {
+                    "context": "97% of newhires were hired from local community.Up to 35% lower paper u",
+                    "qas": [
+                        {
+                            "id": "13",
+                            "question": "What percentage of new hires were hired from local community?",
+                            "answers": [
+                                {
+                                    "text": "97%",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 59",
+            "paragraphs": [
+                {
+                    "context": " culture and awarenessof all relevant risks within the entire Group.Maintaining risk awareness is engrained in the business strategy of theGroup. The Groups Risk ",
+                    "qas": [
+                        {
+                            "id": "59",
+                            "question": "What is engrained in the business strategy of the Group?",
+                            "answers": [
+                                {
+                                    "text": "Maintaining risk awareness",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 164",
+            "paragraphs": [
+                {
+                    "context": " In total, 94 new employeesemployed by the Republic of Slovenia.NLB Group In tot",
+                    "qas": [
+                        {
+                            "id": "164",
+                            "question": "How many new employees were employed by the Republic of Slovenia in 2020?",
+                            "answers": [
+                                {
+                                    "text": "94",
+                                    "answer_start": 11
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 131",
+            "paragraphs": [
+                {
+                    "context": "a common platform of the NLBGroup  NLB Group Net was established in 2017, featuring the most topicalnews from all markets where the NLB Group",
+                    "qas": [
+                        {
+                            "id": "131",
+                            "question": "When was Net established?",
+                            "answers": [
+                                {
+                                    "text": "2017",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 17",
+            "paragraphs": [
+                {
+                    "context": "ognised projects of 2020 in the entireregion of SEE is certainly the HelpFrame project. Withthe HelpFrame project, we offered our own advertisingspace to",
+                    "qas": [
+                        {
+                            "id": "17",
+                            "question": "What is one of the most recognized projects of 2020 in the entire region of SEE?",
+                            "answers": [
+                                {
+                                    "text": "HelpFrame project",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 72",
+            "paragraphs": [
+                {
+                    "context": "olume did not change drasticallyby individual members, except for in Sarajevo and Belgrade, where itdecreased between 6% and 9.8% based on measured consumption",
+                    "qas": [
+                        {
+                            "id": "72",
+                            "question": "In what two cities did the electricity consumption decrease between 6% and 9.8%?",
+                            "answers": [
+                                {
+                                    "text": "Sarajevo and Belgrade",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 161",
+            "paragraphs": [
+                {
+                    "context": "the reporting period, by agegroup, gender and region.NLB In total, 94 new employees in 2020.NLB Group In total, 307 new employeesin 2020",
+                    "qas": [
+                        {
+                            "id": "161",
+                            "question": "How many new employees did NLB have in 2020?",
+                            "answers": [
+                                {
+                                    "text": "94",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 134",
+            "paragraphs": [
+                {
+                    "context": "ell as uninterruptedoperation of standardised dedicated tools e.g., Sophos antivirus protection provided instructions to employees regarding the provision of inf",
+                    "qas": [
+                        {
+                            "id": "134",
+                            "question": "What is a standardised dedicated tool?",
+                            "answers": [
+                                {
+                                    "text": "Sophos antivirus protection",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 153",
+            "paragraphs": [
+                {
+                    "context": "fically adopted for anticorruptionarea will be implemented in KB in 2021.NLB Group, non-core membersThe revision of anti-corruption policie",
+                    "qas": [
+                        {
+                            "id": "153",
+                            "question": "When will implementation of NLB Group policies and procedures be implemented in KB?",
+                            "answers": [
+                                {
+                                    "text": "2021",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 169",
+            "paragraphs": [
+                {
+                    "context": "All employees have rightsas they are determined by law, collectiveagreements and internal regulations.401-3 Parental leavea. Total number of employees thatwere entit",
+                    "qas": [
+                        {
+                            "id": "169",
+                            "question": "What are the rights of all employees determined by?",
+                            "answers": [
+                                {
+                                    "text": "law, collectiveagreements and internal regulations",
+                                    "answer_start": 51
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 63",
+            "paragraphs": [
+                {
+                    "context": "GRI Standards 2021 RoadmapDue to its inherentlysustainable nature,HelpFrame project hasbecome the first NLB GroupsESG project that bringsbusi",
+                    "qas": [
+                        {
+                            "id": "63",
+                            "question": "What is the name of the first NLB Groups ESG project that brings business value to our clients?",
+                            "answers": [
+                                {
+                                    "text": "HelpFrame",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 54",
+            "paragraphs": [
+                {
+                    "context": "ed in our operations.NLB Sustainability governance as established in 2020Compliance and integrity are integrated in our business,governance,",
+                    "qas": [
+                        {
+                            "id": "54",
+                            "question": "In what year was NLB Sustainability governance established?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 107",
+            "paragraphs": [
+                {
+                    "context": " with the NLB andin the strategic members of the NLB Group, we found progress in strengtheningthe culture of ethics and compliance, so NLB Group will continue to implementawareness-raising activities",
+                    "qas": [
+                        {
+                            "id": "107",
+                            "question": "What did the survey on ethics and compliance with the NLB and in the strategic members of NLB Group find in 2020?",
+                            "answers": [
+                                {
+                                    "text": "progress in strengtheningthe culture of ethics and compliance",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 50",
+            "paragraphs": [
+                {
+                    "context": "work on the SE European markets consists of 459 branches and services 2.11million active clients.1. As at 31.12.2020, including Komercijalna banka, Be",
+                    "qas": [
+                        {
+                            "id": "50",
+                            "question": "How many active clients does Group have?",
+                            "answers": [
+                                {
+                                    "text": "2.11million",
+                                    "answer_start": 70
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 181",
+            "paragraphs": [
+                {
+                    "context": "ry shareholding inKomercijalna Banka a.d. Beograd KB at the end of 2020, NLB has achieved a final milestonein this important transaction to ",
+                    "qas": [
+                        {
+                            "id": "181",
+                            "question": "When was Banka a.d. Beograd acquired?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 58",
+            "paragraphs": [
+                {
+                    "context": "d relevant good bankingpractices. NLB Group gives high importance to the risk culture and awarenessof all relevant risks within the entire Group.Maintain",
+                    "qas": [
+                        {
+                            "id": "58",
+                            "question": "What does NLB Group give high importance to?",
+                            "answers": [
+                                {
+                                    "text": "the risk culture",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 48",
+            "paragraphs": [
+                {
+                    "context": "TheBank would like to accelerate the growth through its presence on internationalfinancial markets with diversifying services for its clients. To overcome andmitigate the impact of COVID-19, responsive measures",
+                    "qas": [
+                        {
+                            "id": "48",
+                            "question": "What does NLB want to do to accelerate the growth of its business?",
+                            "answers": [
+                                {
+                                    "text": "through its presence on internationalfinancial markets with diversifying services for its clients",
+                                    "answer_start": 44
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 88",
+            "paragraphs": [
+                {
+                    "context": "not included in thereport for 2020 since the acquisition happened in late December 2020.Figure 5 Employee structure in NLB Group members by gender at the e",
+                    "qas": [
+                        {
+                            "id": "88",
+                            "question": "When did the acquisition of NLB Group take place?",
+                            "answers": [
+                                {
+                                    "text": "late December 2020",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 21",
+            "paragraphs": [
+                {
+                    "context": "f theESG factors. The Groups social role has been stipulated in its Social andEnvironmental Policy more information available on www.nlb.si/social-responsibility, wh",
+                    "qas": [
+                        {
+                            "id": "21",
+                            "question": "What is the name of the policy that stipulates the Groups social role?",
+                            "answers": [
+                                {
+                                    "text": "Social andEnvironmental Policy",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 57",
+            "paragraphs": [
+                {
+                    "context": "ework Human Rights Regulation  Governance GRI Standards 2021 RoadmapRisk management in NLB Group represents an important element of theGroups overall c",
+                    "qas": [
+                        {
+                            "id": "57",
+                            "question": "What represents an important element of the Groups overall corporate governance?",
+                            "answers": [
+                                {
+                                    "text": "Risk management",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 160",
+            "paragraphs": [
+                {
+                    "context": " we continued with thereduction of electricity consumption,which is 9.87% lower than in theyear 2019 12,338,373 kWh.NLB Group, core members",
+                    "qas": [
+                        {
+                            "id": "160",
+                            "question": "What was the reduction in electricity consumption for the year 2020?",
+                            "answers": [
+                                {
+                                    "text": "9.87%",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 178",
+            "paragraphs": [
+                {
+                    "context": "Komercijalna banka has a total of 1.4 million clients, serviced by a bankingteam of nearly 3,000 employees, traine",
+                    "qas": [
+                        {
+                            "id": "178",
+                            "question": "How many clients does Komercijalna banka have?",
+                            "answers": [
+                                {
+                                    "text": "1.4 million",
+                                    "answer_start": 34
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 129",
+            "paragraphs": [
+                {
+                    "context": "As part of the fight against corruption and bribery, the NLB Group carriesout several activities to manage these risks Ensuring specific terms in written agreements and/or general terms",
+                    "qas": [
+                        {
+                            "id": "129",
+                            "question": "What does the NLB Group do to fight corruption and bribery?",
+                            "answers": [
+                                {
+                                    "text": "the NLB Group carriesout several activities to manage these risks",
+                                    "answer_start": 53
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 37",
+            "paragraphs": [
+                {
+                    "context": "together with almost 100 important Slovenian companies.What is more, three NLB representatives, green visionaries, participated inthe first GRE",
+                    "qas": [
+                        {
+                            "id": "37",
+                            "question": "How many NLB representatives participated in the first green vision hackathon for a sustainable, smart, and progressive Slovenia?",
+                            "answers": [
+                                {
+                                    "text": "three",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 157",
+            "paragraphs": [
+                {
+                    "context": "on-core members /SEE regionNLB Group, core members- Serbia MB 3 100%, SB 0 0%.",
+                    "qas": [
+                        {
+                            "id": "157",
+                            "question": "What percentage of Serbias core members are MB?",
+                            "answers": [
+                                {
+                                    "text": "3",
+                                    "answer_start": 62
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 174",
+            "paragraphs": [
+                {
+                    "context": "t Boards and SupervisoryBoards in significant NLB Group membershave 72 members, 50 male and females.Age groupunder 30 years old,31-50 ye",
+                    "qas": [
+                        {
+                            "id": "174",
+                            "question": "How many people are on the management board and supervisory board?",
+                            "answers": [
+                                {
+                                    "text": "72",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 1",
+            "paragraphs": [
+                {
+                    "context": "e end of the year, women represented56% of all management positions. 49% ofwomen at the first management level B-1, 55%of women at the sec",
+                    "qas": [
+                        {
+                            "id": "1",
+                            "question": "What percentage of managers were women in the first management level?",
+                            "answers": [
+                                {
+                                    "text": "49%",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 52",
+            "paragraphs": [
+                {
+                    "context": "ed in our operations.NLB Sustainability governance as established in 2020Compliance and integrity are integrated in our business,governance,",
+                    "qas": [
+                        {
+                            "id": "52",
+                            "question": "When was NLB Sustainability governance established?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 149",
+            "paragraphs": [
+                {
+                    "context": ".b. The definition used for senior management Senior management General Managers directlysubordinated to Management Board B-1, thedirectors that are subordinated to B-2 levelGeneral Manag",
+                    "qas": [
+                        {
+                            "id": "149",
+                            "question": "What is the B-1 level of senior management?",
+                            "answers": [
+                                {
+                                    "text": "General Managers directlysubordinated to Management Board",
+                                    "answer_start": 64
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 130",
+            "paragraphs": [
+                {
+                    "context": "s of the NLB Group. In addition, a common platform of the NLBGroup  NLB Group Net was established in 2017, featuring the most topicalnews from all mar",
+                    "qas": [
+                        {
+                            "id": "130",
+                            "question": "What is the name of the common platform that was established in 2017?",
+                            "answers": [
+                                {
+                                    "text": "NLB Group Net",
+                                    "answer_start": 68
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 151",
+            "paragraphs": [
+                {
+                    "context": " Komercijalna Banka a.d. Beogradand its subsidiaries was finished on 30.12.2020,and is thus not included in the report not todistort the data prese",
+                    "qas": [
+                        {
+                            "id": "151",
+                            "question": "When was the acquisition of Komercijalna Banka a.d. Beograd completed?",
+                            "answers": [
+                                {
+                                    "text": "30.12.2020",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 103",
+            "paragraphs": [
+                {
+                    "context": "easures and organise various events For the children of employees a visit by Santa Claus, an additional dayoff to enter school, introduction to kindergarten,",
+                    "qas": [
+                        {
+                            "id": "103",
+                            "question": "What is an additional day off to enter school for children of employees?",
+                            "answers": [
+                                {
+                                    "text": "a visit by Santa Claus",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 99",
+            "paragraphs": [
+                {
+                    "context": "took place exclusively online from mid-March 2020 on.There were also 25,502 completed e-learning modules done by employees,and 2,029 participati",
+                    "qas": [
+                        {
+                            "id": "99",
+                            "question": "How many e-learning modules were completed by employees from mid-March 2020?",
+                            "answers": [
+                                {
+                                    "text": "25,502",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 116",
+            "paragraphs": [
+                {
+                    "context": "Discrimination is prohibited in the HR management practice.The relationship between",
+                    "qas": [
+                        {
+                            "id": "116",
+                            "question": "What is prohibited in the HR management practice?",
+                            "answers": [
+                                {
+                                    "text": "Discrimination",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 87",
+            "paragraphs": [
+                {
+                    "context": "not included in thereport for 2020 since the acquisition happened in late December 2020.Figure 5 Employee structure in NLB Group members by gender at the e",
+                    "qas": [
+                        {
+                            "id": "87",
+                            "question": "When was the acquisition of Komercijalna Banka?",
+                            "answers": [
+                                {
+                                    "text": "late December 2020",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 74",
+            "paragraphs": [
+                {
+                    "context": ".8% based on measured consumption. Powerconsumption in 2020 totalled 11,120,149 kWh compared to 12,338,373 kWhin 2019. ",
+                    "qas": [
+                        {
+                            "id": "74",
+                            "question": "What was the total power consumption in 2020?",
+                            "answers": [
+                                {
+                                    "text": "11,120,149 kWh",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 121",
+            "paragraphs": [
+                {
+                    "context": "r satisfaction andreliability. Members of the NLB Group manage risks in accordance with theinstructions and comply with the requirements of NLB d.d. ",
+                    "qas": [
+                        {
+                            "id": "121",
+                            "question": "How do NLB members manage risks?",
+                            "answers": [
+                                {
+                                    "text": "in accordance with theinstructions",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 184",
+            "paragraphs": [
+                {
+                    "context": "In 2021, we plan to fully integrate Komercijalna banka into our sustainabilit",
+                    "qas": [
+                        {
+                            "id": "184",
+                            "question": "In what year do we plan to fully integrate Komercijalna banka into our sustainability program?",
+                            "answers": [
+                                {
+                                    "text": "2021",
+                                    "answer_start": 3
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 20",
+            "paragraphs": [
+                {
+                    "context": "nce GRI Standards 2021 RoadmapOur Approach toSustainable BankingIn 2020, the Group embarked on a path of more intensive integration ofsustai",
+                    "qas": [
+                        {
+                            "id": "20",
+                            "question": "What year was it possible to detect the activities of banks in the Slovenian financial sector in the direction of more ecological and socially acceptable operations?",
+                            "answers": [
+                                {
+                                    "text": "2020",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 71",
+            "paragraphs": [
+                {
+                    "context": ".d. continued with the reduction of electricity consumption,which is 9.87% lower than in 2019 12.338.373 kWh. In NLB Groups coremembers comp",
+                    "qas": [
+                        {
+                            "id": "71",
+                            "question": "How much lower was NLB d.d.s electricity consumption in 2019?",
+                            "answers": [
+                                {
+                                    "text": "9.87%",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 106",
+            "paragraphs": [
+                {
+                    "context": "of the NLB Group Code of Conduct in 2020 was furtherverified through reports received through channels for anonymous reportingof suspected harmful practices including the internally accessible NLB Netand publicly accessibl",
+                    "qas": [
+                        {
+                            "id": "106",
+                            "question": "How was the effectiveness of the NLB Group Code of Conduct verified in 2020?",
+                            "answers": [
+                                {
+                                    "text": "reports received through channels for anonymous reportingof suspected harmful practices",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 14",
+            "paragraphs": [
+                {
+                    "context": "bers decreased between 15 to 23%.SupervisoryBoards and MBNLB Group Sustainability Report 2020 2020 Highlights Sustainability Framework Human Rights Regulation  Governa",
+                    "qas": [
+                        {
+                            "id": "14",
+                            "question": "What is the name of the report that highlights the sustainability framework?",
+                            "answers": [
+                                {
+                                    "text": "Sustainability Report 2020 2020",
+                                    "answer_start": 67
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 92",
+            "paragraphs": [
+                {
+                    "context": "new employees in NLB Group by gender and ageIn 2020, NLB Group hired 307 new employees, of which 39.7% wereyounger than 30 years, 5.7% were b",
+                    "qas": [
+                        {
+                            "id": "92",
+                            "question": "How many new employees did NLB Group hire in 2020?",
+                            "answers": [
+                                {
+                                    "text": "307",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 179",
+            "paragraphs": [
+                {
+                    "context": " a total of 1.4 million clients, serviced by a bankingteam of nearly 3,000 employees, trained for all banking operations.We are one of the lead",
+                    "qas": [
+                        {
+                            "id": "179",
+                            "question": "How many employees are on the Komercijna Banka banking team?",
+                            "answers": [
+                                {
+                                    "text": "3,000",
+                                    "answer_start": 69
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Title 102",
+            "paragraphs": [
+                {
+                    "context": "NLB Group as a family-friendly bankThe ability to reconcile work and family responsibilities has a significantimpact on employee performance and commitment. We a",
+                    "qas": [
+                        {
+                            "id": "102",
+                            "question": "What has a significant impact on employee performance and commitment?",
+                            "answers": [
+                                {
+                                    "text": "The ability to reconcile work and family responsibilities",
+                                    "answer_start": 35
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
