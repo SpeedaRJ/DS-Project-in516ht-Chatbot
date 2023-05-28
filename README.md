@@ -23,7 +23,7 @@ There are several subfolders in the repository:
 * and the presentation folder (`/presentation`).
 
 ### The source subfolderfolder structure ###
-In the `/app` folder is an MVP of the pipeline with a UI.  
+In the `/app` folder is an MVP of the pipeline with a UI[^1].  
 In order do run it, do the following from the root directory:
 * `cd src/app`
 * `uvicorn main:app --reload`
@@ -54,3 +54,5 @@ And finally the `/tools` folder contains some additional functions and methods u
 
 ## Warning ##
 To use any scripts that requires a **FAISSDocumentStore** a _db_, _json_ and _faiss_ files should be in the same folder as the scripts. For all of the scripts in this repository this is provided for.
+
+[^1]: An updated verson of this app with improved UI has been added to the `develop` branch (post official submission).
