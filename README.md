@@ -1,5 +1,8 @@
 # Instructions for use #
 
+
+# Additional information #
+
 ## Folder structure ##
 
 There are several subfolders in the repository:
