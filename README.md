@@ -29,7 +29,7 @@ In order do run it, do the following from the root directory:
 * `uvicorn main:app --reload`
 * Open [localhost](http://127.0.0.1:8000/docs) in your browser of choice.
 * Click on the test _\\{model}\\{question}_ and then _Try it out_.
-* Possible models are `generative` and `extractive`
+* Possible model options are "generative" and "extractive"
 
 
 In the `/data` folder, all of the original and processed data can be found.
