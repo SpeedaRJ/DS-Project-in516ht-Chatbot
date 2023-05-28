@@ -27,9 +27,9 @@ In the `/app` folder is an MVP of the pipeline with a UI.
 In order do run it, do the following from the root directory:
 * `cd src/app`
 * `uvicorn main:app --reload`
-* Open [localhost](http://127.0.0.1:8000/docs) in your browser of choice.
-* Click on the test _\\{model}\\{question}_ and then _Try it out_.
-* Possible model options are "generative" and "extractive"
+* Open [localhost](http://127.0.0.1:8000/) in your browser of choice.
+* You can now talk to the fine-tuned smaller version of T5, enjoy.
+* This setting can be changed to the fine-tuned RoBERTa using the code[^1].
 
 
 In the `/data` folder, all of the original and processed data can be found.
@@ -54,3 +54,5 @@ And finally the `/tools` folder contains some additional functions and methods u
 
 ## Warning ##
 To use any scripts that requires a **FAISSDocumentStore** a _db_, _json_ and _faiss_ files should be in the same folder as the scripts. For all of the scripts in this repository this is provided for.
+
+[^1]: Might be added as inbuild support later for fun.
