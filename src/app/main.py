@@ -28,33 +28,35 @@ generator = build_generator()
 pipeline_extractive = build_pipeline(reader, retriever)
 pipeline_generative = build_pipeline(generator, retriever)
 
-chatbot = ChatBot(pipeline_generative)
+chatbot = ChatBot(pipeline_extractive)
+
 
 @app.post("/", response_class=HTMLResponse)
 @app.get("/", response_class=HTMLResponse)
-async def root(request:Request, message: Optional[str] = Form(None)):
+async def root(request: Request, message: Optional[str] = Form(None)):
 
     # If the Form is not None, then get a reply from the bot
-  if message is not None:
-    
-    # Gets a response of the AI bot
-    _ = chatbot.get_reply(message)
+    if message is not None:
 
-    # Converts the chat history into an HTML dialog
-    array = np.array([
-      build_html_chat(is_me=i%2==0, text=msg['text'], time=msg['time']) 
-      for i, msg in enumerate(chatbot.chat_history)
-    ])
-    array[::2], array[1::2] = array[1::2], array[::2].copy()
-    chat_html = '\n'.join(array[::-1])
-  
-  else:
-    chat_html = ''
-    
-  message_dict = {
-    "request": request,
-    "chat": chat_html
-  }
-  
-  # Returns the final HTML
-  return templates.TemplateResponse("index.html", message_dict)
+        # Gets a response of the AI bot
+        _ = chatbot.get_reply(message)
+
+        # Converts the chat history into an HTML dialog
+        array = np.array([
+            build_html_chat(is_me=i %
+                            2 == 0, text=msg['text'], time=msg['time'])
+            for i, msg in enumerate(chatbot.chat_history)
+        ])
+        array[::2], array[1::2] = array[1::2], array[::2].copy()
+        chat_html = '\n'.join(array[::-1])
+
+    else:
+        chat_html = ''
+
+    message_dict = {
+        "request": request,
+        "chat": chat_html
+    }
+
+    # Returns the final HTML
+    return templates.TemplateResponse("index.html", message_dict)

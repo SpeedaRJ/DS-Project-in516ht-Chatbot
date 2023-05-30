@@ -13,7 +13,7 @@ def build_document_store():
     converter = PDFToTextConverter(remove_numeric_tables=True)
     extracted = converter.convert(file_path=pl.Path(
         f"../data/raw/sustainability-report-2042.pdf"), meta=False, encoding="UTF-8")[0]
-    
+
     preprocessor = PreProcessor(
         clean_empty_lines=True,
         clean_whitespace=True,
@@ -74,26 +74,25 @@ def run_query(model, query):
 
 
 class ChatBot:
-  def __init__(self, pipeline):
-    self.pipe = pipeline
-    self.chat_history = []
-    self.chat_history_ids = None
-    
+    def __init__(self, pipeline):
+        self.pipe = pipeline
+        self.chat_history = []
+        self.chat_history_ids = None
 
-  def get_reply(self, user_message):
-    # save message from the user
-    self.chat_history.append({
-      'text':user_message, 
-      'time':str(datetime.datetime.now().time().replace(microsecond=0))
-    })
-    
-    answers = run_query(self.pipe, user_message)
-    decoded_message =  answers["answers"][0].to_dict()["answer"]
-    
-    # save reply from the bot
-    self.chat_history.append({
-      'text':decoded_message, 
-      'time':str(datetime.datetime.now().time().replace(microsecond=0))
-    })
-    
-    return decoded_message
+    def get_reply(self, user_message):
+        # save message from the user
+        self.chat_history.append({
+            'text': user_message,
+            'time': str(datetime.datetime.now().time().replace(microsecond=0))
+        })
+
+        answers = run_query(self.pipe, user_message)
+        decoded_message = answers["answers"][0].to_dict()["answer"]
+
+        # save reply from the bot
+        self.chat_history.append({
+            'text': decoded_message,
+            'time': str(datetime.datetime.now().time().replace(microsecond=0))
+        })
+
+        return decoded_message
