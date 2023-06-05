@@ -3,42 +3,6 @@ from haystack.nodes import DensePassageRetriever, PreProcessor, PDFToTextConvert
 from haystack.nodes.answer_generator.transformers import _BartEli5Converter
 from haystack.pipelines import Pipeline
 
-import datetime
-import torch
-
-import pathlib as pl
-
-
-def build_document_store():
-    converter = PDFToTextConverter(remove_numeric_tables=True)
-    extracted = converter.convert(file_path=pl.Path(
-        f"../data/raw/sustainability-report-2042.pdf"), meta=False, encoding="UTF-8")[0]
-
-    preprocessor = PreProcessor(
-        clean_empty_lines=True,
-        clean_whitespace=True,
-        clean_header_footer=True,
-        split_by="sentence",
-        split_length=4,
-        split_respect_sentence_boundary=False,
-        split_overlap=0
-    )
-    cleaned = preprocessor.process([extracted])
-
-    document_store = FAISSDocumentStore(
-        faiss_index_factory_str='Flat', similarity="dot_product")
-    document_store.write_documents(cleaned)
-
-    retriever = DensePassageRetriever(
-        document_store=document_store,
-        query_embedding_model="SpeedaRJ/dpr-fb-finetuned-nlb-question-encoder",
-        passage_embedding_model="SpeedaRJ/dpr-fb-finetuned-nlb-context-encoder",
-        use_gpu=True,
-    )
-
-    document_store.update_embeddings(retriever)
-    document_store.save("document_store.faiss")
-
 
 def read_document_store():
     return FAISSDocumentStore.load(index_path="document_store.faiss", config_path="document_store.json")
@@ -71,28 +35,3 @@ def build_pipeline(model, retriever):
 
 def run_query(model, query):
     return model.run(query=query, params={"Model": {"top_k": 1}})
-
-
-class ChatBot:
-    def __init__(self, pipeline):
-        self.pipe = pipeline
-        self.chat_history = []
-        self.chat_history_ids = None
-
-    def get_reply(self, user_message):
-        # save message from the user
-        self.chat_history.append({
-            'text': user_message,
-            'time': str(datetime.datetime.now().time().replace(microsecond=0))
-        })
-
-        answers = run_query(self.pipe, user_message)
-        decoded_message = answers["answers"][0].to_dict()["answer"]
-
-        # save reply from the bot
-        self.chat_history.append({
-            'text': decoded_message,
-            'time': str(datetime.datetime.now().time().replace(microsecond=0))
-        })
-
-        return decoded_message

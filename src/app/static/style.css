@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    background-color: #230078;
+    font-family: 'Frutiger', Arial, sans-serif;
+}
+
+.card {
+    width: 95%;
+    height: 95%;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.nlb-background {
+    background-color: #230078;
+    border-color: #230078;
+    color: white;
+}
+
+.nlb-background:hover {
+    background-color: white;
+    color: #230078;
+}
+
+.chat-message-user {
+    font-size: larger;
+    color: #230078;
+}
+
+.chat-message-text {
+    font-size: larger;
+}
+
+.chat-message-icon {
+    height: 25px !important;
+}
+
+.chat-message-text,
+.chat-message-user {
+    min-height: 40px !important;
+}

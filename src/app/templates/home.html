@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NLB Question-Answering System</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', path='/logo.jpg') }}">
+    <link href="https://fonts.cdnfonts.com/css/frutiger" rel="stylesheet">
+</head>
+<script>
+    $(document).ready(function () {
+        $("#user-form").on("submit", function (e) {
+            e.preventDefault();
+            var current_user = $("#user_input").val();
+            if (current_user) {
+                data = { "username": current_user };
+                $.post('/api/register', JSON.stringify(data), function (response) {
+                    $(".chat-body").removeClass("hide");
+                    $(".chat-register").addClass("hide");
+                    window.location.href = "/chat";
+                });
+            }
+        });
+    });
+</script>
+
+<body class="container-fluid d-flex align-items-center justify-content-center">
+    <div class="card rounded-pill">
+        <div class="card-body d-flex flex-column">
+            <h1 class="card-title text-center mt-4"> <strong>NLB</strong> Question-Answering System </h1>
+            <p class="text-center mt-5 h3">With who am I speaking to today?</p>
+            <form class="d-flex justify-content-center align-items-center mt-2" id="user-form">
+                <div class="row w-100 justify-content-center align-items-center flex-column">
+                    <input type="text" class="form-control w-25" id="user_input" placeholder="Enter your name">
+                    <button id="start" type="submit" class="btn mt-3 nlb-background">Start Asking Questions</button>   
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
