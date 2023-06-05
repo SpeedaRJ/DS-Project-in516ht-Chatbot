@@ -12,12 +12,12 @@
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', path='/logo.jpg') }}">
     <link href="https://fonts.cdnfonts.com/css/frutiger" rel="stylesheet">
     <script>
-        user_message = 
-            "<div class='user-message align-self-start d-flex flex-row align-items-center mb-4 rounded border border-dark w-75 mr-2'>"+
-                "<div class='chat-message-user text-uppercase d-flex align-items-center ml-2'><strong>user_name</strong></div>" +
-                "<div class='chat-message-text ml-3 d-flex align-items-center mr-2'>" +
-                    "<p class='m-0'>question</p>" +
-                "</div>" + 
+        user_message =
+            "<div class='user-message align-self-start d-flex flex-row align-items-center mb-4 rounded border border-dark w-75 mr-2'>" +
+            "<div class='chat-message-user text-uppercase d-flex align-items-center ml-2'><strong>user_name</strong></div>" +
+            "<div class='chat-message-text ml-3 d-flex align-items-center mr-2'>" +
+            "<p class='m-0'>question</p>" +
+            "</div>" +
             "</div>"
 
         function set_user() {
@@ -36,22 +36,24 @@
             $('#request').prop('disabled', true);
             $("#chat-form :input").prop("disabled", true);
             return "<div id='loading' class='user-message align-self-end d-flex flex-row justify-content-end mb-4 rounded align-items-center mb-4 rounded border border-dark w-75 ml-2'>" +
-                        "<div class='chat-message-text d-flex align-items-center ml-2'>" +
-                            "<div class='spinner-grow text-dark' role='status'>" +
-                                "<span class='sr-only'>Loading...</span>" +
-                            "</div>" +
-                        "</div>" +
-                        "<div class='chat-message-user d-flex align-items-center ml-3 mr-2'><img src='./static/logo.jpg' alt='...' class='chat-message-icon'></div>" +
-                    "</div>"
+                "<div class='chat-message-text d-flex align-items-center ml-2'>" +
+                "<div class='spinner-grow text-dark' role='status'>" +
+                "<span class='sr-only'>Loading...</span>" +
+                "</div>" +
+                "</div>" +
+                "<div class='chat-message-user d-flex align-items-center ml-3 mr-2'><img src='./static/logo.jpg' alt='...' class='chat-message-icon'></div>" +
+                "</div>"
         }
 
         function remove_spinner() {
             $("#chat-form :input").prop("disabled", false);
             $('#request').prop('disabled', false);
             $("#loading").remove();
+            $("#user_input").focus();
         }
 
         $(document).ready(async function () {
+            $("#user_input").focus();
             var current_user;
             await set_user().then((name) => {
                 current_user = name;
@@ -65,10 +67,10 @@
                         "sender": current_user,
                         "message": message
                     };
-                    console.log(current_user)
                     message_object = user_message.replace("question", message).replace("user_name", current_user);
                     add_message(message_object);
-                    add_message(generate_spinner())
+                    add_message(generate_spinner());
+                    $("#messages").animate({ scrollTop: $('#messages').prop("scrollHeight") }, 1000);
                     $.get("/api/chat", data, function (response) {
                         remove_spinner();
                         add_message(response);
@@ -93,7 +95,7 @@
             </div>
             <div class="row aling-self-end w-50 px-4">
                 <form class="d-flex justify-content-between w-100" id="chat-form">
-                    <input type="text" class="form-control" placeholder="Write your question here">
+                    <input id="user_input" type="text" class="form-control" placeholder="Write your question here">
                     <button id="request" type="submit" class="btn btn-primary nlb-background ml-3">Ask</button>
                 </form>
             </div>

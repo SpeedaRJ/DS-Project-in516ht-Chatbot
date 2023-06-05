@@ -28,8 +28,8 @@ In order do run it, do the following from the root directory:
 * `cd src/app`
 * `uvicorn main:app --reload`
 * Open [localhost](http://127.0.0.1:8000/) in your browser of choice.
-* You can now talk to the fine-tuned smaller version of T5, enjoy.
-* This setting can be changed to the fine-tuned RoBERTa using the code[^1].
+* You can now talk to the fine-tuned RoBERTa, enjoy.
+* This setting can be changed to the small fine-tuned T5 variant in the `model.py` file[^1].
 
 
 In the `/data` folder, all of the original and processed data can be found.

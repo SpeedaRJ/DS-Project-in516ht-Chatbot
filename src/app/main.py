@@ -47,12 +47,12 @@ def register_user(response: Response, user: str = Body()):
 def chat(request: Request):
     question = request.query_params["message"]
     print("Getting response for question: " + question)
-    response_data = {
-        "answer": model.run_query(generative, question)["answers"][0].to_dict()["answer"]
-    }
     # response_data = {
-    #     "answer": model.run_query(extractive, question)["answers"][0].to_dict()["answer"]
+    #     "answer": model.run_query(generative, question)["answers"][0].to_dict()["answer"]
     # }
+    response_data = {
+        "answer": model.run_query(extractive, question)["answers"][0].to_dict()["answer"]
+    }
     print("Got Response...")
     html = """
         <div class='user-message align-self-end d-flex flex-row align-items-center justify-content-end mb-4 rounded d-flex align-items-center border border-dark w-75 ml-2'>
