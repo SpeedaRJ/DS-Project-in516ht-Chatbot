@@ -13,7 +13,7 @@
     <link href="https://fonts.cdnfonts.com/css/frutiger" rel="stylesheet">
     <script>
         user_message = 
-            "<div class='user-message align-self-start d-flex flex-row align-items-center mb-4 rounded border border-dark w-75'>"+
+            "<div class='user-message align-self-start d-flex flex-row align-items-center mb-4 rounded border border-dark w-75 mr-2'>"+
                 "<div class='chat-message-user text-uppercase d-flex align-items-center ml-2'><strong>user_name</strong></div>" +
                 "<div class='chat-message-text ml-3 d-flex align-items-center mr-2'>" +
                     "<p class='m-0'>question</p>" +
@@ -33,7 +33,9 @@
         }
 
         function generate_spinner() {
-            return "<div id='loading' class='user-message align-self-end d-flex flex-row justify-content-end mb-4 rounded align-items-center mb-4 rounded border border-dark w-75'>" +
+            $('#request').prop('disabled', true);
+            $("#chat-form :input").prop("disabled", true);
+            return "<div id='loading' class='user-message align-self-end d-flex flex-row justify-content-end mb-4 rounded align-items-center mb-4 rounded border border-dark w-75 ml-2'>" +
                         "<div class='chat-message-text d-flex align-items-center ml-2'>" +
                             "<div class='spinner-grow text-dark' role='status'>" +
                                 "<span class='sr-only'>Loading...</span>" +
@@ -44,6 +46,8 @@
         }
 
         function remove_spinner() {
+            $("#chat-form :input").prop("disabled", false);
+            $('#request').prop('disabled', false);
             $("#loading").remove();
         }
 
@@ -90,7 +94,7 @@
             <div class="row aling-self-end w-50 px-4">
                 <form class="d-flex justify-content-between w-100" id="chat-form">
                     <input type="text" class="form-control" placeholder="Write your question here">
-                    <button id="send" type="submit" class="btn btn-primary nlb-background ml-3">Ask</button>
+                    <button id="request" type="submit" class="btn btn-primary nlb-background ml-3">Ask</button>
                 </form>
             </div>
         </div>

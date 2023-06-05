@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     background-color: #230078;
     font-family: 'Frutiger', Arial, sans-serif;
+    overflow: hidden;
 }
 
 .card {
@@ -37,4 +38,14 @@ html, body {
 .chat-message-text,
 .chat-message-user {
     min-height: 40px !important;
+}
+
+#messages {
+    overflow: auto;
+    max-height: 728.047px !important;
+}
+
+#request:disabled{
+    background-color: white;
+    color: #230078;
 }
